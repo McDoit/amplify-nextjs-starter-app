@@ -1,7 +1,21 @@
+"use client";
+
 import Image from 'next/image'
 import styles from './page.module.css'
+import { Helmet } from "react-helmet";
+import { useEffect, useState } from 'react';
 
 export default function Home() {
+  const [robots, setRobots] = useState<string>("index,follow");
+  const [header, setHeader] = useState<string>("Index Me");
+
+  useEffect(() => {
+    setTimeout(() => {
+      setRobots("noindex, nofollow");
+      setHeader("Don't Index Me");
+    }, 2500);
+  }, []);
+
   return (
     <main className={styles.main}>
       <div className={styles.description}>
@@ -10,6 +24,11 @@ export default function Home() {
           <code className={styles.code}>app/page.tsx</code>
         </p>
       </div>
+      
+      <h1>{header}</h1>
+      <Helmet>
+        <meta name="robots" content={robots} />
+      </Helmet>
 
       <div className={styles.center}>
         <Image

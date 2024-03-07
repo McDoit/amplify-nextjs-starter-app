@@ -16,6 +16,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+    <head>
+      <meta
+        name="google-site-verification"
+        content="Yl3Pmd_6Bs2mLW5fsnPbYQo5qS5bSLcp9CCpwo7LE9k"
+      />
+      <meta name="robots" content="noindex,nofollow" data-react-helmet="true" />
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1, minimum-scale=1"
+      />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   )
