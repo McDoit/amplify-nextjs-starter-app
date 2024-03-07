@@ -4,17 +4,23 @@ import Image from 'next/image'
 import styles from './page.module.css'
 import { Helmet } from "react-helmet";
 import { useEffect, useState } from 'react';
+import { useSearchParams } from 'next/navigation'
 
 export default function Home() {
   const [robots, setRobots] = useState<string>("index,follow");
   const [header, setHeader] = useState<string>("Index Me");
 
+  
+  const searchParams = useSearchParams();
+
+  const waitTime = Number.parseInt(searchParams.get('wait') || '2500');
+
   useEffect(() => {
     setTimeout(() => {
       setRobots("noindex, nofollow");
       setHeader("Don't Index Me");
-    }, 2500);
-  }, []);
+    }, waitTime);
+  }, [waitTime]);
 
   return (
     <main className={styles.main}>
