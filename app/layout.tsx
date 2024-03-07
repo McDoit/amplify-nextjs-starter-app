@@ -17,10 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
     <head>
-      <meta
-        name="google-site-verification"
-        content="Yl3Pmd_6Bs2mLW5fsnPbYQo5qS5bSLcp9CCpwo7LE9k"
-      />
+      <meta name="google-site-verification" content="ANzkFFq3xUb9t9dIfRzQM-TorC9QIkS0bpxdi51Of2o" />
       <meta name="robots" content="noindex,nofollow" data-react-helmet="true" />
       <meta
         name="viewport"
