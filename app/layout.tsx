@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en">
     <head>
       <meta name="google-site-verification" content="ANzkFFq3xUb9t9dIfRzQM-TorC9QIkS0bpxdi51Of2o" />
-      <meta name="robots" content="noindex,nofollow" data-react-helmet="true" />
+      <meta name="robots" content="index,follow" data-react-helmet="true" />
       <meta
         name="viewport"
         content="width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1, minimum-scale=1"
