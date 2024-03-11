@@ -6,6 +6,14 @@ import { Helmet } from "react-helmet";
 import { useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
 
+import { Authenticator } from '@aws-amplify/ui-react';
+import { Amplify } from 'aws-amplify';
+import config from '@/amplifyconfiguration.json';
+import '@aws-amplify/ui-react/styles.css';
+
+
+Amplify.configure(config);
+
 export default function Home() {
   const [robots, setRobots] = useState<string>("index,follow");
   const [header, setHeader] = useState<string>("Index Me");
@@ -48,6 +56,8 @@ export default function Home() {
       <h1>{header}</h1>
 
       <p>{loadingMessage}</p>
+      
+    <Authenticator>
 
       <div className={styles.center}>
         <Image
@@ -67,7 +77,7 @@ export default function Home() {
           priority
         />
       </div>
-
+      </Authenticator>
       <div className={styles.grid}>
         <a
           href="https://docs.amplify.aws/gen2/"
