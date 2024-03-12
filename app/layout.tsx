@@ -88,6 +88,13 @@ export default function RootLayout({
                   >
                     Loadtest
                   </Button>
+                  <Button
+                    color="inherit"
+                    href="/todos"
+                    LinkComponent={NextLink}
+                  >
+                    Todos
+                  </Button>
                 </Stack>
               </Toolbar>
             </AppBar>

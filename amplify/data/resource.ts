@@ -11,6 +11,7 @@ const schema = a.schema({
   Todo: a
     .model({
       content: a.string().required(),
+      priority: a.enum(['Low', 'Medium', 'High']),
       isDone: a.boolean(),
       isPublic: a.boolean(),
     })
