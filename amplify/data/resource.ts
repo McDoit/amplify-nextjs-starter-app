@@ -13,7 +13,6 @@ const schema = a.schema({
       content: a.string().required(),
       isDone: a.boolean(),
       isPublic: a.boolean(),
-      updatedAt: a.timestamp(),
     })
     .authorization([a.allow.owner(), a.allow.public().to(["read"])]),
 });
