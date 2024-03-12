@@ -5,9 +5,14 @@ import { Helmet } from "react-helmet";
 import { useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
 
-import { createTheme, ThemeProvider, styled } from "@mui/material/styles";
-import { teal, pink } from "@mui/material/colors";
-import { AppBar, Toolbar, Typography, IconButton, Stack } from "@mui/material";
+import {
+  AppBar,
+  Toolbar,
+  Typography,
+  IconButton,
+  Stack,
+  Container,
+} from "@mui/material";
 
 import MenuIcon from "@mui/icons-material/Menu";
 
@@ -17,17 +22,6 @@ import { Amplify } from "aws-amplify";
 import "@aws-amplify/ui-react/styles.css";
 
 //Amplify.configure(config);
-
-const theme = createTheme({
-  palette: {
-    primary: {
-      main: teal[700],
-    },
-    secondary: {
-      main: pink[500],
-    },
-  },
-});
 
 export default function Home() {
   const [robots, setRobots] = useState<string>("index,follow");
@@ -57,13 +51,17 @@ export default function Home() {
   }, [waitTime, loadTime]);
 
   return (
-    <ThemeProvider theme={theme}>
+    <main>
       <Helmet>
         <meta name="robots" content={robots} />
       </Helmet>
-      <main>
-        <Authenticator></Authenticator>
-      </main>
-    </ThemeProvider>
+      <Container>
+        <Stack spacing={2} alignItems={"center"}>
+          <Typography variant="h3"> {header}</Typography>
+
+          <Typography>{loadingMessage}</Typography>
+        </Stack>
+      </Container>
+    </main>
   );
 }
