@@ -10,7 +10,7 @@ authenticated via an API key, can only "read" records.
 const schema = a.schema({
   Todo: a
     .model({
-      content: a.string(),
+      content: a.string().required(),
       isDone: a.boolean(),
       isPublic: a.boolean(),
       createdAt: a.timestamp(),
