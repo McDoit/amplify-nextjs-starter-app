@@ -11,11 +11,16 @@ const schema = a.schema({
   Todo: a
     .model({
       content: a.string().required(),
-      priority: a.enum(['Low', 'Medium', 'High']),
+      priority: a.enum(["Low", "Medium", "High"]),
       isDone: a.boolean(),
       isPublic: a.boolean(),
     })
-    .authorization([a.allow.owner(), a.allow.public().to(["read"])]),
+    //.authorization([a.allow.owner(), a.allow.public()]),
+    .authorization([
+      a.allow.private(),
+      a.allow.owner(),
+      a.allow.public().to(["read"]),
+    ]),
 });
 
 export type Schema = ClientSchema<typeof schema>;

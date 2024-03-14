@@ -16,11 +16,13 @@
     "@mui/icons-material": "^5.15.12",
     "@mui/material": "^5.15.12",
     "@mui/material-nextjs": "^5.15.11",
+    "@mui/x-data-grid": "^6.19.6",
     "aws-amplify": "latest",
     "next": "13.5.4",
     "react": "^18",
     "react-dom": "^18",
     "react-helmet": "^6.1.0",
+    "react-hook-form": "^7.51.0",
     "swr": "^2.2.5"
   },
   "devDependencies": {
