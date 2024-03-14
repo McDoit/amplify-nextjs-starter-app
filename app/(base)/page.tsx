@@ -1,21 +1,5 @@
-"use client";
-
-import Image from "next/image";
-import styles from "./page.module.css";
-import { Helmet } from "react-helmet";
-import { useEffect, useState } from "react";
-import { useSearchParams } from "next/navigation";
-
-import { AppBar, Toolbar, Typography, IconButton, Stack } from "@mui/material";
-
-import MenuIcon from "@mui/icons-material/Menu";
-
-import { Authenticator } from "@aws-amplify/ui-react";
-import { Amplify } from "aws-amplify";
-//import config from '@/amplifyconfiguration.json';
-import "@aws-amplify/ui-react/styles.css";
-
-//Amplify.configure(config);
+import Image from 'next/image'
+import styles from './page.module.css'
 
 export default function Home() {
   return (
@@ -45,6 +29,7 @@ export default function Home() {
           priority
         />
       </div>
+
       <div className={styles.grid}>
         <a
           href="https://docs.amplify.aws/gen2/"
@@ -91,9 +76,11 @@ export default function Home() {
           <h2>
             Data <span>-&gt;</span>
           </h2>
-          <p>Fully-typed real-time API with NoSQL database.</p>
+          <p>
+            Fully-typed real-time API with NoSQL database.
+          </p>
         </a>
       </div>
     </main>
-  );
+  )
 }

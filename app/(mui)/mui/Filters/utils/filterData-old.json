@@ -1,0 +1,4782 @@
+{
+  "filterMode": "Search",
+  "filterFamilies": [
+    {
+      "key": "Family:0006IWojjYPE_Wxw4coKuY_Mz",
+      "label": "Ämne",
+      "name": "Alla ämnen",
+      "heading": "Välj ett ämne",
+      "primaryView": {
+        "key": "View:0006H42dmk5qjd8J1J35kjqkh",
+        "groups": [
+          {
+            "key": "Group:0006pd04yc6JKHLr6y3UuCKWf",
+            "label": "",
+            "helpText": null,
+            "filters": [
+              {
+                "key": "Filter:00061m5ePY-jNGsiLGKYhxR-C",
+                "type": "hierarchy",
+                "label": "Category",
+                "searchParameter": "categoryId",
+                "value": {
+                  "items": [
+                    {
+                      "choiceItem": {
+                        "value": "4706",
+                        "label": "COVID-19 / Corona"
+                      },
+                      "children": []
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "99",
+                        "label": "Ledarskap"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "929",
+                            "label": "Konflikthantering"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "930",
+                            "label": "Ny som chef"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "931",
+                            "label": "UGL"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "932",
+                            "label": "Coachande ledarskap"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "933",
+                            "label": "Företagsledning / styrelse"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "934",
+                            "label": "Produktionsledning"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "941",
+                            "label": "Medarbetar-/ utvecklingssamtal"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "946",
+                            "label": "The Human Element"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "947",
+                            "label": "Ledarskapsprogram"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4036",
+                            "label": "Arbetsledare"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4049",
+                            "label": "Leda utan att vara chef"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4083",
+                            "label": "Utvecklande ledarskap"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4295",
+                            "label": "Mentorprogram"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4647",
+                            "label": "Förändringsledning"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4820",
+                            "label": "Självledarskap"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "72",
+                        "label": "Teknik"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "867",
+                            "label": "Industri"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "4047",
+                                "label": "Härdplaster"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "871",
+                            "label": "El / elektronik"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "3940",
+                                "label": "Auktoriserad elinstallatör"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "4046",
+                                "label": "ESA – Elsäkerhetsanvisningarna"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "4318",
+                                "label": "Kabelförläggning i mark"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "4997",
+                                "label": "Mätteknik"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "881",
+                            "label": "Telekom / radio"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "4072",
+                                "label": "Fiberteknik"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "883",
+                            "label": "Energi / energideklarationer"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "885",
+                            "label": "Produktutveckling"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "3851",
+                            "label": "Hydraulik"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "3957",
+                            "label": "Svets"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4054",
+                            "label": "Motorsåg \u0026 Röjsåg"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4060",
+                            "label": "Maskin \u0026 Verkstad"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "4079",
+                                "label": "CE-märkning"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "4085",
+                                "label": "PLC-programmering"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "4090",
+                                "label": "Maskindirektivet"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "4319",
+                                "label": "Underhåll"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4076",
+                            "label": "Ritningsläsning"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "132",
+                        "label": "Personlig effektivitet"
+                      },
+                      "children": []
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "141",
+                        "label": "Försäljning"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "991",
+                            "label": "Förhandlingsteknik"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "996",
+                            "label": "Säljutbildning-Grund"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "997",
+                            "label": "Säljutbildning-Avancerad"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "998",
+                            "label": "Försäljningschef / säljcoach"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4068",
+                            "label": "B2B Försäljning"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4159",
+                            "label": "Key Account Manager"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4884",
+                            "label": "Social selling"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "146",
+                        "label": "MBA"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "1004",
+                            "label": "Full time MBA"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "1006",
+                            "label": "Executive MBA"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "1008",
+                            "label": "Part Time MBA"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "148",
+                        "label": "Inköp"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "999",
+                            "label": "Export / Internationell handel"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "1010",
+                            "label": "Offentlig upphandling"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "4415",
+                                "label": "Anbud / Anbudsgivare"
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "152",
+                        "label": "Coaching"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "1011",
+                            "label": "NLP"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "1012",
+                            "label": "Certifierad \u0026 diplomerad coach"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "4292",
+                                "label": "ICC-certifiering"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "4412",
+                                "label": "ICF Coachning"
+                              },
+                              "children": [
+                                {
+                                  "choiceItem": {
+                                    "value": "4413",
+                                    "label": "ICF ACC"
+                                  },
+                                  "children": []
+                                },
+                                {
+                                  "choiceItem": {
+                                    "value": "4414",
+                                    "label": "ICF PCC"
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4039",
+                            "label": "Livscoach"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "156",
+                        "label": "Projektledning"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "1018",
+                            "label": "Diplomering / certifiering"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "4436",
+                                "label": "IPMA"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "4081",
+                                "label": "PRINCE2"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "4142",
+                                "label": "PMP – Projektledning"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "1019",
+                            "label": "Projektledning-Grund"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "1020",
+                            "label": "Projektledning-Avancerad"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4114",
+                            "label": "Byggprojektledning"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4402",
+                            "label": "Agil projektledning"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "159",
+                        "label": "Kommunikation"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "2294",
+                            "label": "Sociala medier"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "2295",
+                            "label": "Digital marknadsföring"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "4058",
+                                "label": "Google Ads (AdWords)"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "4087",
+                                "label": "Google Analytics"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "4088",
+                                "label": "SEO – Sökmotoroptimering"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "2680",
+                            "label": "Digital kommunikation"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "2681",
+                            "label": "Internkommunikation"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4448",
+                            "label": "Medieträning"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "1026",
+                            "label": "PR"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "215",
+                            "label": "Grafisk formgivning"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "1028",
+                            "label": "Skrivande/copywriter"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "1030",
+                            "label": "Marknadsföring"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "2289",
+                            "label": "Foto och film"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "160",
+                        "label": "Pedagogik"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "261",
+                            "label": "Skola"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "2772",
+                                "label": "Lärare"
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "161",
+                        "label": "Presentationsteknik"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "1029",
+                            "label": "Mötesteknik"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4253",
+                            "label": "Retorik"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "4434",
+                                "label": "Härskartekniker"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4819",
+                            "label": "Digitala möten"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "171",
+                        "label": "HR"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "1040",
+                            "label": "Teambuilding"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "1041",
+                            "label": "Rekrytering"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4037",
+                            "label": "Personlighetstest"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "4038",
+                                "label": "DiSC"
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "208",
+                        "label": "Kundservice"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "992",
+                            "label": "Kundbemötande"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4044",
+                            "label": "Receptionist"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "238",
+                        "label": "Kvalitet \u0026 Ledningssystem"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "4073",
+                            "label": "Miljöledning"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4089",
+                            "label": "Kvalitetsledning"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "4433",
+                                "label": "ISO 13485"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "4439",
+                                "label": "Arbetsmiljöledning"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "4450",
+                                "label": "ISO 14971"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4186",
+                            "label": "Internrevision"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "245",
+                        "label": "IT \u0026 Microsoft Office"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "1131",
+                            "label": "Access"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "1132",
+                            "label": "Excel"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "4418",
+                                "label": "Grundkurs Excel"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "4419",
+                                "label": "Avancerad Excel"
+                              },
+                              "children": [
+                                {
+                                  "choiceItem": {
+                                    "value": "4420",
+                                    "label": "VBA-programmering"
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "1134",
+                            "label": "Outlook"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "1135",
+                            "label": "Powerpoint"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "1137",
+                            "label": "Word"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "1138",
+                            "label": "MS Project"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "3929",
+                            "label": "SharePoint"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4421",
+                            "label": "Officepaketet"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "4423",
+                                "label": "Office 365/Microsoft 365"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4422",
+                            "label": "OneNote"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4711",
+                            "label": "Teams"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "246",
+                        "label": "IT Avancerad"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "1139",
+                            "label": "IBM Programvaror"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "1140",
+                            "label": "CAD"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "4077",
+                                "label": "Catia"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "4164",
+                                "label": "Inventor"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "4182",
+                                "label": "Revit"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "4254",
+                                "label": "AutoCAD"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "4922",
+                                "label": "SolidWorks"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "1141",
+                            "label": "Databas / SQL"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "1142",
+                            "label": "IT Säkerhet"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "1143",
+                            "label": "Systemutveckling"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "4070",
+                                "label": "IT-arkitekt"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "1144",
+                            "label": "Operativsystem"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "1145",
+                            "label": "Webbutveckling"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "1146",
+                            "label": "Nätverk / Server"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "1147",
+                            "label": "Test / kvalitetssäkring"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "4080",
+                                "label": "ISTQB"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "1149",
+                            "label": "ITIL"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "2723",
+                            "label": "Agil"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "4075",
+                                "label": "Scrum"
+                              },
+                              "children": [
+                                {
+                                  "choiceItem": {
+                                    "value": "4297",
+                                    "label": "Scrum Master"
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "4302",
+                                "label": "SAFe"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "3928",
+                            "label": "Programmering"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "3850",
+                                "label": "Java"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "3873",
+                                "label": "C++"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "3922",
+                                "label": "C#"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "3927",
+                                "label": "Python"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "3963",
+                                "label": "JavaScript"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4082",
+                            "label": "Kravhantering"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4755",
+                            "label": "AI"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "247",
+                        "label": "Webbdesign \u0026 Layout"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "1150",
+                            "label": "Övriga Adobeprodukter"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "1151",
+                            "label": "Webbdesign"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "2290",
+                            "label": "Photoshop"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "2291",
+                            "label": "InDesign"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "2292",
+                            "label": "Illustrator"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "2293",
+                            "label": "Wordpress"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4308",
+                            "label": "Adobe Premiere"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4424",
+                            "label": "Adobe Acrobat"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4425",
+                            "label": "After Effects"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "279",
+                        "label": "Vård"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "1184",
+                            "label": "Första hjälpen"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "3960",
+                                "label": "HLR"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "3961",
+                                "label": "Barn-HLR"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "3964",
+                                "label": "Hjärtstartare - HLR"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "1186",
+                            "label": "Behandling /omsorg"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "3994",
+                                "label": "Personlig assistans"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "4889",
+                                "label": "Äldreomsorg"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "3962",
+                            "label": "Motiverande samtal (MI)"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4172",
+                            "label": "Missbruk \u0026 Beroende"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4840",
+                            "label": "Funktionsnedsättningar"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4998",
+                            "label": "Läkemedelshantering"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "1183",
+                            "label": "Psykoterapi / KBT"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "4052",
+                                "label": "KBT"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "4063",
+                                "label": "Terapeut"
+                              },
+                              "children": [
+                                {
+                                  "choiceItem": {
+                                    "value": "4064",
+                                    "label": "Samtalsterapeut"
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "4207",
+                                "label": "Grundläggande psykoterapi"
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "602",
+                        "label": "Organisation / verksamhet"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "228",
+                            "label": "Affärsmannaskap / etik"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "1888",
+                            "label": "Strategi"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "1889",
+                            "label": "Risk- / krishantering"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "1890",
+                            "label": "Verksamhetsutveckling"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "4069",
+                                "label": "Lean"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "4074",
+                                "label": "Six Sigma"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4160",
+                            "label": "Business Intelligence"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4455",
+                            "label": "Digitalisering"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "4918",
+                        "label": "Hotell \u0026 turism"
+                      },
+                      "children": []
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "876",
+                        "label": "Bygg \u0026 Anläggning"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "4045",
+                            "label": "Asbest"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4050",
+                            "label": "Lift \u0026 kran"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "4051",
+                                "label": "Säkra lyft"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "4066",
+                                "label": "Mobila arbetsplattformar"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "4067",
+                                "label": "Travers"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4053",
+                            "label": "Kontrollansvarig"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4056",
+                            "label": "Ställningsbyggnad"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4784",
+                            "label": "VA"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4924",
+                            "label": "Betong"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "884",
+                        "label": "Transport \u0026 fordon"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "2850",
+                            "label": "Truck"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "3884",
+                            "label": "Maskinförare"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "4040",
+                                "label": "Hjullastare"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "3917",
+                            "label": "Farligt gods på väg (ADR)"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4059",
+                            "label": "YKB - Yrkeskompetensbevis"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4071",
+                            "label": "Arbete på väg"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4185",
+                            "label": "Sjöfart"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "1032",
+                        "label": "Brandskydd"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "2287",
+                            "label": "Heta arbeten"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4158",
+                            "label": "Systematiskt Brandskyddsarbete"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4408",
+                            "label": "Grundläggande brandskydd"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4410",
+                            "label": "Anläggningsskötare"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4409",
+                            "label": "Brandfarliga varor"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4555",
+                            "label": "Brandfarliga Arbeten"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4411",
+                            "label": "Brandskyddsansvarig"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "1033",
+                        "label": "Säkerhet"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "4183",
+                            "label": "ATEX"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "1031",
+                            "label": "Hot och våld"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4065",
+                            "label": "Fallskydd"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "1034",
+                        "label": "Hälsa"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "1035",
+                            "label": "Stresshantering"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "392",
+                            "label": "Livsmedel"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4290",
+                            "label": "Träning"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "2288",
+                            "label": "Kostrådgivning"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4417",
+                            "label": "Hälsocoach"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4291",
+                            "label": "Friskvård"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "1036",
+                        "label": "Arbetsmiljö"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "2286",
+                            "label": "Skyddsombud"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "3763",
+                            "label": "BAS P / BAS U"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4055",
+                            "label": "Systematiskt Arbetsmiljöarbete"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4091",
+                            "label": "Bättre Arbetsmiljö"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4405",
+                            "label": "Rehabilitering"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4406",
+                            "label": "Org. \u0026 Social Arbetsmiljö"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4407",
+                            "label": "Diskriminering"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4416",
+                            "label": "Ergonomi"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4986",
+                            "label": "Kemikaliehantering"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "1038",
+                        "label": "Juridik"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "1037",
+                            "label": "Arbetsrätt"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "1039",
+                            "label": "Försäkring"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "2297",
+                            "label": "Entreprenadjuridik"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "3862",
+                            "label": "Familjerätt"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "3925",
+                            "label": "Fastighetsrätt"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "3937",
+                            "label": "Avtalsrätt"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "3938",
+                            "label": "Affärsjuridik"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "4454",
+                                "label": "Immaterialrätt"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "3939",
+                            "label": "Miljörätt"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4035",
+                            "label": "GDPR - Dataskyddsförordningen"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4084",
+                            "label": "PBL – Plan \u0026 Bygglagen"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4189",
+                            "label": "Socialrätt"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "4430",
+                                "label": "Barnrätt"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4449",
+                            "label": "Förvaltningsrätt"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4453",
+                            "label": "Processrätt"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "2296",
+                        "label": "Logistik"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "4078",
+                            "label": "Lager"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "3923",
+                        "label": "Hållbarhet"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "4299",
+                            "label": "CSR"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "3952",
+                        "label": "Föreläsare"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "3953",
+                            "label": "Internationella talare"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "3954",
+                            "label": "Svenska föreläsare"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "3955",
+                            "label": "Moderatorer"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "3956",
+                            "label": "Artister"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "4041",
+                        "label": "Personlig utveckling"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "4042",
+                            "label": "Mental träning \u0026 Mindfulness"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "4043",
+                        "label": "Administration"
+                      },
+                      "children": []
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "4165",
+                        "label": "Statistik"
+                      },
+                      "children": []
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "4288",
+                        "label": "Seminarium"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "4853",
+                            "label": "Webbinarium"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "4312",
+                        "label": "Skönhet"
+                      },
+                      "children": []
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "4556",
+                        "label": "Fastighet"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "875",
+                            "label": "VVS"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "4261",
+                                "label": "OVK"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "879",
+                            "label": "Fastighetsförvaltning"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "4596",
+                        "label": "Uppdragsutbildning"
+                      },
+                      "children": []
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "4618",
+                        "label": "Inredning"
+                      },
+                      "children": []
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "68",
+                        "label": "Språk"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "746",
+                            "label": "Engelska"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "753",
+                            "label": "Spanska"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "853",
+                            "label": "Arabiska"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "854",
+                            "label": "Portugisiska"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "760",
+                            "label": "Franska"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "766",
+                            "label": "Tyska"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "773",
+                            "label": "Italienska"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "782",
+                            "label": "Ryska"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "848",
+                            "label": "Danska"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "849",
+                            "label": "Kinesiska"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "850",
+                            "label": "Privata språklektioner"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "851",
+                            "label": "Affärsspråk"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "852",
+                            "label": "Svenska"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "12",
+                        "label": "Ekonomi"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "675",
+                            "label": "Finans / analys"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "680",
+                            "label": "Redovisning / bokföring"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "4086",
+                                "label": "Bokslut"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "4157",
+                                "label": "Koncernredovisning"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "683",
+                            "label": "Ekonomiutbildning-Grund"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "684",
+                            "label": "Lön / skatt / moms"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "4404",
+                                "label": "Löneadministration"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "685",
+                            "label": "Ekonomistyrning"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "691",
+                            "label": "Kredit"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4048",
+                            "label": "Ekonomi för icke-ekonomer"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4057",
+                            "label": "Företagsekonomi"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "4061",
+                                "label": "Redovisningsekonom"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "4062",
+                                "label": "Ekonomiassistent"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "4184",
+                                "label": "Controller"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "4403",
+                            "label": "Budgetering"
+                          },
+                          "children": []
+                        }
+                      ]
+                    }
+                  ],
+                  "parentSearchParameter": null
+                },
+                "displaySettings": {
+                  "accordion": false,
+                  "showLabel": false,
+                  "allSubjectsLabel": "Alla ämnen",
+                  "subjectLabel": "ämne",
+                  "subjectsLabel": "ämnen",
+                  "relatedSubjectsLabel": "Allt inom #Subject#"
+                },
+                "ordinal": 1000
+              }
+            ],
+            "ordinal": 1000
+          }
+        ],
+        "switchLabel": "Visa alla ämnen"
+      },
+      "secondaryView": {
+        "key": "View:0006qUjGAlrarYnVwRf3cn9J2",
+        "groups": [
+          {
+            "key": "Group:0006ousALalYQsOIVpceD5rqY",
+            "label": "",
+            "helpText": null,
+            "filters": [
+              {
+                "key": "Filter:0006tuXvrq6j7VvVeaoNYU555",
+                "type": "autocomplete",
+                "label": "Categories",
+                "searchParameter": "categoryId",
+                "value": {
+                  "search": [
+                    {
+                      "label": null,
+                      "field": "category"
+                    }
+                  ],
+                  "autocompleteItems": [
+                    {
+                      "label": "Populära ämnen"
+                    },
+                    {
+                      "value": "72",
+                      "label": "Teknik",
+                      "type": "Category"
+                    },
+                    {
+                      "value": "279",
+                      "label": "Vård",
+                      "type": "Category"
+                    },
+                    {
+                      "value": "12",
+                      "label": "Ekonomi",
+                      "type": "Category"
+                    },
+                    {
+                      "value": "99",
+                      "label": "Ledarskap",
+                      "type": "Category"
+                    },
+                    {
+                      "value": "159",
+                      "label": "Kommunikation",
+                      "type": "Category"
+                    }
+                  ],
+                  "placeholder": "Sök kategori, t.ex. \u0022Vård\u0022",
+                  "freeText": false
+                },
+                "displaySettings": {
+                  "showLabel": false,
+                  "autoFocus": true
+                },
+                "ordinal": 1000
+              }
+            ],
+            "ordinal": 1000
+          }
+        ],
+        "switchLabel": "Sök kategori"
+      },
+      "ordinal": 1000,
+      "displaySettings": {
+        "overlay": false
+      }
+    },
+    {
+      "key": "Family:0006jpMDrDlQbCxmcxCqbmxYL",
+      "label": "Plats",
+      "name": "Alla platser",
+      "heading": "Välj en plats",
+      "primaryView": {
+        "key": "View:0006vHEI6o3VSDAGSIn6KmhNk",
+        "groups": [
+          {
+            "key": "Group:0006lpvpirwNWrhdueN74EJVx",
+            "label": "",
+            "helpText": null,
+            "filters": [
+              {
+                "key": "Filter:00068d5ePY-jNGsiLGKYhxR-C",
+                "type": "autocomplete",
+                "label": "Places",
+                "searchParameter": "placeId",
+                "value": {
+                  "search": [
+                    {
+                      "label": null,
+                      "field": "isDistance"
+                    },
+                    {
+                      "label": null,
+                      "field": "isAbroad"
+                    },
+                    {
+                      "label": null,
+                      "field": "area"
+                    },
+                    {
+                      "label": null,
+                      "field": "location"
+                    }
+                  ],
+                  "autocompleteItems": [
+                    {
+                      "value": "isDistance:1",
+                      "label": "Distans",
+                      "type": "isDistance"
+                    },
+                    {
+                      "value": "area:1:842",
+                      "label": "Rikstäckande",
+                      "type": "area"
+                    },
+                    {
+                      "label": "Populära platser"
+                    },
+                    {
+                      "value": "84570",
+                      "label": "Stockholm",
+                      "type": "Location"
+                    },
+                    {
+                      "value": "84597",
+                      "label": "Göteborg",
+                      "type": "Location"
+                    },
+                    {
+                      "value": "84576",
+                      "label": "Malmö",
+                      "type": "Location"
+                    }
+                  ],
+                  "placeholder": "Stad eller region t.ex. \u0022Stockholm\u0022",
+                  "freeText": false
+                },
+                "displaySettings": {
+                  "showLabel": false,
+                  "autoFocus": true
+                },
+                "ordinal": 1000
+              }
+            ],
+            "ordinal": 1000
+          }
+        ],
+        "switchLabel": "Sök plats"
+      },
+      "secondaryView": {
+        "key": "View:0006GWaK71f5qW-MgV9scE5vt",
+        "groups": [
+          {
+            "key": "Group:00064wKvtWnMRDrVmugyEWobY",
+            "label": "",
+            "helpText": null,
+            "filters": [
+              {
+                "key": "Filter:00061m5ePY-jNGsiLGKYhxCyC",
+                "type": "hierarchy",
+                "label": "Location",
+                "searchParameter": "placeId",
+                "value": {
+                  "items": [
+                    {
+                      "choiceItem": {
+                        "value": "87016",
+                        "label": "Norrbotten"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "84409",
+                            "label": "Kiruna"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84442",
+                            "label": "Gällivare"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84476",
+                            "label": "Öjebyn"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84483",
+                            "label": "Piteå"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84487",
+                            "label": "Abisko"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84585",
+                            "label": "Luleå"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "87429",
+                            "label": "Arvidsjaur"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "87490",
+                            "label": "Kalix"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "87522",
+                            "label": "Pajala"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "87738",
+                            "label": "Haparanda"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "98262",
+                            "label": "Arjeplog"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "87018",
+                        "label": "Stockholms län"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "84548",
+                            "label": "Södertälje"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "98358",
+                                "label": "Järna"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84570",
+                            "label": "Stockholm"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "84403",
+                                "label": "Farsta"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "84424",
+                                "label": "Nacka"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "84425",
+                                "label": "Sollentuna"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "84429",
+                                "label": "Vallentuna"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "84435",
+                                "label": "Danderyd"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "84439",
+                                "label": "Upplands Väsby"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "97589",
+                                "label": "Arlanda"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "97653",
+                                "label": "Årsta"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "97654",
+                                "label": "Älvsjö"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "98152",
+                                "label": "Bromma"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "98186",
+                                "label": "Hägersten"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "100913",
+                                "label": "Spånga"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "100937",
+                                "label": "Tumba"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "150381",
+                                "label": "Högdalen"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "84564",
+                                "label": "Kista"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "84586",
+                                "label": "Lidingö"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "84595",
+                                "label": "Huddinge"
+                              },
+                              "children": [
+                                {
+                                  "choiceItem": {
+                                    "value": "98106",
+                                    "label": "Segeltorp"
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "87504",
+                                "label": "Vällingby"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "93242",
+                                "label": "Skogås"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "93895",
+                                "label": "Kungens Kurva"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "95813",
+                                "label": "Haninge"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "97341",
+                                "label": "Johanneshov"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "84440",
+                                "label": "Järfälla"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "84441",
+                                "label": "Märsta"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "84468",
+                                "label": "Rosersberg"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "84477",
+                                "label": "Täby"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "84479",
+                                "label": "Ekerö"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "84498",
+                                "label": "Solna"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "84550",
+                                "label": "Sundbyberg"
+                              },
+                              "children": []
+                            },
+                            {
+                              "choiceItem": {
+                                "value": "84558",
+                                "label": "Sigtuna"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "101002",
+                            "label": "Bro "
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84412",
+                            "label": "Nynäshamn"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84438",
+                            "label": "Kungsängen"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84475",
+                            "label": "Åkersberga"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84480",
+                            "label": "Mälardalen"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84484",
+                            "label": "Norrtälje"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "87019",
+                        "label": "Södermanland"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "84539",
+                            "label": "Katrineholm"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84551",
+                            "label": "Nyköping"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "87259",
+                            "label": "Vingåker"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84456",
+                            "label": "Strängnäs"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84466",
+                            "label": "Sparreholm"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84501",
+                            "label": "Oxelösund"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84507",
+                            "label": "Trosa"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84526",
+                            "label": "Eskilstuna"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84528",
+                            "label": "Flen"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "87020",
+                        "label": "Uppsala län"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "84414",
+                            "label": "Älvkarleby"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84572",
+                            "label": "Uppsala"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "98030",
+                                "label": "Östhammar"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84554",
+                            "label": "Enköping"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "97696",
+                            "label": "Tierp"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "87022",
+                        "label": "Västerbotten"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "84478",
+                            "label": "Storuman"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84482",
+                            "label": "Skellefteå"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "98493",
+                                "label": "Boliden"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84494",
+                            "label": "Lycksele"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84573",
+                            "label": "Umeå"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "92845",
+                            "label": "Vilhelmina"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "87023",
+                        "label": "Västernorrland"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "84433",
+                            "label": "Höga Kusten"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84454",
+                            "label": "Sollefteå"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84509",
+                            "label": "Örnsköldsvik"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84571",
+                            "label": "Sundsvall"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84593",
+                            "label": "Härnösand"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "87277",
+                            "label": "Timrå"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "97664",
+                            "label": "Kramfors"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "98182",
+                            "label": "Ånge"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "87024",
+                        "label": "Västmanland"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "84406",
+                            "label": "Skultuna"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84457",
+                            "label": "Arboga"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84512",
+                            "label": "Kungsör"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84516",
+                            "label": "Köping"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84517",
+                            "label": "Hallstahammar"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84565",
+                            "label": "Fagersta"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84569",
+                            "label": "Västerås"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "88122",
+                                "label": "Ramnäs"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "87118",
+                            "label": "Sala"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "150280",
+                            "label": "Västerås län"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "150386",
+                            "label": "Färna"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "87025",
+                        "label": "Västra Götaland"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "84436",
+                            "label": "Västra frölunda"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84448",
+                            "label": "Vänersborg"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84455",
+                            "label": "Stenungsund"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84458",
+                            "label": "Falköping"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84461",
+                            "label": "Kungsbacka"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84467",
+                            "label": "Uddevalla"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84472",
+                            "label": "Alingsås"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84519",
+                            "label": "Herrljunga"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84401",
+                            "label": "Roasjö"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84419",
+                            "label": "Kinna"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84423",
+                            "label": "Sjuhärad"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "93900",
+                                "label": "Örby"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84431",
+                            "label": "Mölndal"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "87276",
+                            "label": "Strömstad"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "87383",
+                            "label": "Mariestad"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "87626",
+                            "label": "Hindås"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "93413",
+                            "label": "Östra Frölunda"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "89930",
+                            "label": "Onsala"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "98821",
+                            "label": "Lerum"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "100499",
+                            "label": "Svenljunga"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "100544",
+                            "label": "Götene"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "100821",
+                            "label": "Ulricehamn"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "100822",
+                            "label": "Essunga"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "101311",
+                            "label": "Munkedal"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84529",
+                            "label": "Skara"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84534",
+                            "label": "Kungälv"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84559",
+                            "label": "Vara"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84566",
+                            "label": "Lidköping"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84574",
+                            "label": "Trollhättan"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84578",
+                            "label": "Skövde"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84588",
+                            "label": "Borås"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "88121",
+                                "label": "Hällered"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84597",
+                            "label": "Göteborg"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "93593",
+                                "label": "Hisings Backa"
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "87026",
+                        "label": "Örebro län"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "87382",
+                            "label": "Kumla"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "87567",
+                            "label": "Hallsberg"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "94042",
+                            "label": "Grythyttan"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "97772",
+                            "label": "Lindesberg"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "97956",
+                            "label": "Nora"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84420",
+                            "label": "Åsbro"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84428",
+                            "label": "Loka Brunn"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84521",
+                            "label": "Degerfors"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84561",
+                            "label": "Karlskoga"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84575",
+                            "label": "Örebro"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "87027",
+                        "label": "Östergötland"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "84495",
+                            "label": "Valdemarsvik"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84499",
+                            "label": "Finspång"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84545",
+                            "label": "Motala"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84547",
+                            "label": "Norrköping"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84584",
+                            "label": "Linköping"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "90038",
+                            "label": "Mjölby"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "93289",
+                            "label": "Söderköping"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "150204",
+                            "label": "Boxholm"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "95501",
+                        "label": "Småland"
+                      },
+                      "children": []
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "84496",
+                        "label": "Gotland"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "84567",
+                            "label": "Visby"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "84543",
+                        "label": "Skåne"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "84407",
+                            "label": "Vellinge"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84417",
+                            "label": "Skanör med Falsterbo"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84422",
+                            "label": "Tyringe"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84426",
+                            "label": "Löddeköpinge"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84443",
+                            "label": "Simrishamn"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "92490",
+                                "label": "Kivik"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84453",
+                            "label": "Ängelholm"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84464",
+                            "label": "Ystad"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84503",
+                            "label": "Kävlinge"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84506",
+                            "label": "Helsingborg"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84525",
+                            "label": "Båstad"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "97661",
+                                "label": "Torekov"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84532",
+                            "label": "Hässleholm"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84541",
+                            "label": "Landskrona"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84546",
+                            "label": "Eslöv"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84553",
+                            "label": "Trelleborg"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84576",
+                            "label": "Malmö"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84581",
+                            "label": "Kristianstad"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "97977",
+                                "label": "Åhus"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "97173",
+                            "label": "Klippan"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "97899",
+                            "label": "Hörby"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "100075",
+                            "label": "Sjöbo"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84583",
+                            "label": "Lund"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "87108",
+                            "label": "Åstorp"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "87901",
+                            "label": "Perstorp"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "89973",
+                            "label": "Falsterbo"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "90023",
+                            "label": "Osby"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "92634",
+                            "label": "Listerby"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "92827",
+                            "label": "Broby"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "93457",
+                            "label": "Höör"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "87008",
+                        "label": "Dalarna"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "150306",
+                            "label": "Älvdalen"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84502",
+                            "label": "Avesta"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84540",
+                            "label": "Leksand"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84542",
+                            "label": "Ludvika"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84544",
+                            "label": "Mora"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84556",
+                            "label": "Borlänge"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84590",
+                            "label": "Falun"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "87820",
+                            "label": "Smedjebacken"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "97767",
+                            "label": "Hedemora"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "97773",
+                            "label": "Kopparberg"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84415",
+                            "label": "Tällberg"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84427",
+                            "label": "Sälen"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84452",
+                            "label": "Malung"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "87010",
+                        "label": "Gävleborg"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "84408",
+                            "label": "Hofors"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84508",
+                            "label": "Bollnäs"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84523",
+                            "label": "Edsbyn"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84536",
+                            "label": "Storvik"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84537",
+                            "label": "Sandviken"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84549",
+                            "label": "Hudiksvall"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84552",
+                            "label": "Söderhamn"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84592",
+                            "label": "Gävle"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "87547",
+                            "label": "Iggesund"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "97692",
+                            "label": "Ockelbo"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "97694",
+                            "label": "Ljusdal"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "87011",
+                        "label": "Halland"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "84524",
+                            "label": "Falkenberg"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84596",
+                            "label": "Halmstad"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "93292",
+                            "label": "Ullared"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84510",
+                            "label": "Varberg"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84515",
+                            "label": "Laholm"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "87012",
+                        "label": "Jämtland"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "84577",
+                            "label": "Östersund"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84587",
+                            "label": "Åre"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "97171",
+                            "label": "Sveg"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "87013",
+                        "label": "Jönköpings län"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "84444",
+                            "label": "Gränna"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84486",
+                            "label": "Tranås"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84511",
+                            "label": "Eksjö"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84557",
+                            "label": "Mullsjö"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84530",
+                            "label": "Huskvarna"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84562",
+                            "label": "Värnamo"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84563",
+                            "label": "Nässjö"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84594",
+                            "label": "Jönköping"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "87534",
+                            "label": "Gislaved"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "97792",
+                            "label": "Gnosjö"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "101384",
+                            "label": "Hok"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "87014",
+                        "label": "Kalmar län"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "84460",
+                            "label": "Oskarshamn"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84490",
+                            "label": "Borgholm"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84492",
+                            "label": "Västervik"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84522",
+                            "label": "Emmaboda"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84580",
+                            "label": "Kalmar"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "87426",
+                            "label": "Vimmerby"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "100696",
+                            "label": "Ålem"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "100754",
+                            "label": "Nybro"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "100784",
+                            "label": "torsås"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "101003",
+                            "label": "mönsterås"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "87015",
+                        "label": "Kronoberg"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "95518",
+                            "label": "Markaryd"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84488",
+                            "label": "Ljungby"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84489",
+                            "label": "Älmhult"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84568",
+                            "label": "Växjö"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "87381",
+                            "label": "Braås"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "84434",
+                        "label": "Blekinge"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "84579",
+                            "label": "Karlskrona"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84504",
+                            "label": "Ronneby"
+                          },
+                          "children": [
+                            {
+                              "choiceItem": {
+                                "value": "97350",
+                                "label": "Kallinge"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84533",
+                            "label": "Olofström"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84538",
+                            "label": "Karlshamn"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "84446",
+                        "label": "Värmland"
+                      },
+                      "children": [
+                        {
+                          "choiceItem": {
+                            "value": "84491",
+                            "label": "Hagfors"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84582",
+                            "label": "Karlstad"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84589",
+                            "label": "Arvika"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "87209",
+                            "label": "Säffle"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "97771",
+                            "label": "Kristinehamn"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "97774",
+                            "label": "Torsby"
+                          },
+                          "children": []
+                        },
+                        {
+                          "choiceItem": {
+                            "value": "84485",
+                            "label": "Sunne"
+                          },
+                          "children": []
+                        }
+                      ]
+                    }
+                  ],
+                  "parentSearchParameter": null
+                },
+                "displaySettings": {
+                  "accordion": false,
+                  "showLabel": false,
+                  "allSubjectsLabel": "Alla platser",
+                  "subjectLabel": "plats",
+                  "subjectsLabel": "platser",
+                  "relatedSubjectsLabel": "Allt inom #Subject#"
+                },
+                "ordinal": 1000
+              }
+            ],
+            "ordinal": 1000
+          }
+        ],
+        "switchLabel": "Visa alla platser"
+      },
+      "ordinal": 2000,
+      "displaySettings": {
+        "overlay": false
+      }
+    },
+    {
+      "key": "Family:0006Js-0BmeqIdVY16Mh5p83u",
+      "label": "Pris, datum \u0026 längd",
+      "name": "Alla",
+      "heading": "Filtrera på pris, startdatum och längd",
+      "primaryView": {
+        "key": "View:0006FCXMAiGsQL7WjLIH9WhVg",
+        "groups": [
+          {
+            "key": "Group:0006txwvg6upw3cuoEtjSwiSR",
+            "label": "Välj prisintervall",
+            "helpText": null,
+            "filters": [
+              {
+                "key": "Filter:00065z01trsBOX8Cahc9nDHeR",
+                "type": "range",
+                "label": "Välj prisintervall",
+                "searchParameter": "price",
+                "value": {
+                  "fromLabel": "Lägsta pris",
+                  "max": 100000,
+                  "min": 0,
+                  "toLabel": "Högsta pris",
+                  "valueSuffix": "Kr"
+                },
+                "displaySettings": {
+                  "shortName": null,
+                  "showLabel": false
+                },
+                "ordinal": 3000
+              }
+            ],
+            "ordinal": 1000
+          },
+          {
+            "key": "Group:0006txwvg6upw3cuoEtjSwiSRDate",
+            "label": "När vill du gå utbildningen?",
+            "helpText": null,
+            "filters": [
+              {
+                "key": "Filter:0006GzT1t8sFGU8Calc9nYkHJ",
+                "type": "date-range",
+                "label": "",
+                "searchParameter": "dates",
+                "value": {
+                  "labelFrom": "Tidigast",
+                  "labelTo": "Senast",
+                  "format": "med",
+                  "locale": "sv-SE",
+                  "placeholder": "Välj datum",
+                  "disablePreviousDates": true,
+                  "ranges": []
+                },
+                "displaySettings": {
+                  "showLabel": false,
+                  "open": null
+                },
+                "ordinal": 1000
+              }
+            ],
+            "ordinal": 2000
+          },
+          {
+            "key": "Group:0006txwvg6upw3cuoEtjSwiSRLength",
+            "label": "Hur lång ska utbildningen vara?",
+            "helpText": null,
+            "filters": [
+              {
+                "key": "Filter:00065z01trsBOX8Cahc9nDabc",
+                "type": "choice",
+                "label": "Hur lång ska utbildningen vara",
+                "searchParameter": "length",
+                "value": {
+                  "items": [
+                    {
+                      "value": "0-8",
+                      "label": "1 Dag eller mindre"
+                    },
+                    {
+                      "value": "16-24",
+                      "label": "2-3 Dagar"
+                    },
+                    {
+                      "value": "392-2912",
+                      "label": "7+ Veckor"
+                    }
+                  ]
+                },
+                "displaySettings": {
+                  "showLabel": false,
+                  "defaultValueLabel": "Visa alla"
+                },
+                "ordinal": 2000
+              }
+            ],
+            "ordinal": 3000
+          }
+        ],
+        "switchLabel": ""
+      },
+      "secondaryView": null,
+      "ordinal": 3000,
+      "displaySettings": {
+        "overlay": false
+      }
+    },
+    {
+      "key": "Family:0006orkhs6ma3KcSaek2pVqnd",
+      "label": "Utbildningsform",
+      "name": "Alla",
+      "heading": "Utbildningsform",
+      "primaryView": {
+        "key": "View:0006-Njw3YNJkGu9d6zPIXcSp",
+        "groups": [
+          {
+            "key": "Group:0006WKrWpDhhhkM4wZL9Jcb35",
+            "label": "Välj en utbildningsform",
+            "helpText": null,
+            "filters": [
+              {
+                "key": "Filter:0006sqnAiQqCeF7S95wuHCTIs",
+                "type": "choice",
+                "label": "Delivery method",
+                "searchParameter": "deliveryMethodId",
+                "value": {
+                  "items": [
+                    {
+                      "value": "1765",
+                      "label": "Distans med träffar"
+                    },
+                    {
+                      "value": "6",
+                      "label": "Öppen utbildning"
+                    },
+                    {
+                      "value": "589",
+                      "label": "Företagsanpassad utbildning"
+                    },
+                    {
+                      "value": "590",
+                      "label": "Onlineutbildning"
+                    },
+                    {
+                      "value": "1749",
+                      "label": "Korta YH-utbildningar"
+                    },
+                    {
+                      "value": "1755",
+                      "label": "Uppdragsutbildning"
+                    }
+                  ]
+                },
+                "displaySettings": {
+                  "showLabel": false,
+                  "defaultValueLabel": "Visa alla"
+                },
+                "ordinal": 1000
+              }
+            ],
+            "ordinal": 1000
+          }
+        ],
+        "switchLabel": "Select from the list"
+      },
+      "secondaryView": null,
+      "ordinal": 4000,
+      "displaySettings": {
+        "overlay": false
+      }
+    },
+    {
+      "key": "Family:0006Bl4TKyFaiXGUkQUz7NSVs",
+      "label": "Fler filter",
+      "name": "Visa fler filter",
+      "heading": "Specificera din sökning",
+      "primaryView": {
+        "key": "View:00060w2E-rZlqumbG4B0yqxri",
+        "groups": [
+          {
+            "key": "Group:0006TBJ63wRhKi0p4L0ppi_EW",
+            "label": "Välj Certifiering",
+            "helpText": null,
+            "filters": [
+              {
+                "key": "Filter:0006GzT1t8sFGU8Calc9nYCertificate",
+                "type": "hierarchy",
+                "label": "Filtrera via certifikat",
+                "searchParameter": "certificateId",
+                "value": {
+                  "items": [
+                    {
+                      "choiceItem": {
+                        "value": "18",
+                        "label": "Bygg"
+                      },
+                      "children": []
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "20",
+                        "label": "Teknik"
+                      },
+                      "children": []
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "21",
+                        "label": "Projektledning"
+                      },
+                      "children": []
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "22",
+                        "label": "Coaching"
+                      },
+                      "children": []
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "23",
+                        "label": "Arbetsmiljö"
+                      },
+                      "children": []
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "24",
+                        "label": "Vård"
+                      },
+                      "children": []
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "25",
+                        "label": "Miljö / kvalitet / internrevision"
+                      },
+                      "children": []
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "26",
+                        "label": "Säkerhet"
+                      },
+                      "children": []
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "27",
+                        "label": "Onlinemarknadsföring"
+                      },
+                      "children": []
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "28",
+                        "label": "Livsmedel"
+                      },
+                      "children": []
+                    },
+                    {
+                      "choiceItem": {
+                        "value": "47",
+                        "label": "Brandskydd"
+                      },
+                      "children": []
+                    }
+                  ],
+                  "parentSearchParameter": "certificateCategoryId"
+                },
+                "displaySettings": {
+                  "accordion": false,
+                  "showLabel": true,
+                  "allSubjectsLabel": "Alla certifikat",
+                  "subjectLabel": "certifikat",
+                  "subjectsLabel": "certifikat",
+                  "relatedSubjectsLabel": "Allt inom #Subject#"
+                },
+                "ordinal": 2000
+              }
+            ],
+            "ordinal": 3000
+          }
+        ],
+        "switchLabel": ""
+      },
+      "secondaryView": null,
+      "ordinal": 5000,
+      "displaySettings": {
+        "overlay": false
+      }
+    }
+  ],
+  "providerFilterFamilies": null,
+  "selectedFilters": {
+    "categoryId": {
+      "label": "Coaching",
+      "value": "152",
+      "filterFamilyKey": "Family:0006IWojjYPE_Wxw4coKuY_Mz",
+      "filterType": "hierarchy"
+    },
+    "deliveryMethodId": {
+      "label": "Öppen utbildning",
+      "value": "notSet",
+      "filterFamilyKey": "notSet",
+      "filterType": "choice"
+    },
+    "price": {
+      "label": "24582 - 86483",
+      "value": "24582 - 86483",
+      "filterFamilyKey": "notSet",
+      "filterType": "range"
+    },
+    "dates": {
+      "label": "7/13/2022 - 7/30/2022",
+      "value": "7/13/2022 - 7/30/2022",
+      "filterFamilyKey": "notSet",
+      "filterType": "date-range"
+    }
+  },
+  "resourceTexts": [
+    {
+      "groupName": "SearchFilter",
+      "keyName": "ClearSelectedFilters",
+      "value": "Rensa filter"
+    },
+    {
+      "groupName": "SearchFilter",
+      "keyName": "ClearFilter",
+      "value": "Ta bort filter"
+    },
+    {
+      "groupName": "SearchFilter",
+      "keyName": "SearchShowTotalCourses",
+      "value": "Visa #Total# utbildningar"
+    },
+    {
+      "groupName": "SearchFilter",
+      "keyName": "FilterSortLabel",
+      "value": "Filtrera"
+    },
+    {
+      "groupName": "SearchFilter",
+      "keyName": "NewSearchLabel",
+      "value": "Rensa filter"
+    },
+    {
+      "groupName": "SearchFilter",
+      "keyName": "ClearAll",
+      "value": "Rensa"
+    },
+    {
+      "groupName": "SearchFilter",
+      "keyName": "FilterSortHeading",
+      "value": "Filter \u0026 Sortering"
+    },
+    {
+      "groupName": "SearchFilter",
+      "keyName": "SaveLabel",
+      "value": "Spara val"
+    },
+    {
+      "groupName": "SearchFilter",
+      "keyName": "SortOptionsLabel",
+      "value": "Sortera"
+    },
+    {
+      "groupName": "SearchFilter",
+      "keyName": "AutocompleteNoResult",
+      "value": "Vi hittar ingen matchning på det som du sökte på, vänligen försök igen"
+    },
+    {
+      "groupName": "SearchFilter",
+      "keyName": "QuickSearchCourseLabel",
+      "value": "Utbildningar"
+    },
+    {
+      "groupName": "SearchFilter",
+      "keyName": "QuickSearchProviderLabel",
+      "value": "Utbildningsföretag"
+    },
+    {
+      "groupName": "SearchFilter",
+      "keyName": "QuickSearchBtnSearchLabel",
+      "value": "Sök"
+    },
+    {
+      "groupName": "SearchFilter",
+      "keyName": "MoreFiltersLabel",
+      "value": "Du kan förfina sökningen i nästa steg"
+    },
+    {
+      "groupName": "SearchFilter",
+      "keyName": "AutocompleteProviderHeader",
+      "value": ""
+    }
+  ],
+  "sortOptions": [
+    {
+      "label": "Högst betyg",
+      "searchKey": "review0"
+    },
+    {
+      "label": "Pris (lägst → högst)",
+      "searchKey": "price0"
+    },
+    {
+      "label": "Pris (högst → lägst)",
+      "searchKey": "price1"
+    },
+    {
+      "label": "Närmsta startdatum",
+      "searchKey": "startdate0"
+    },
+    {
+      "label": "Längd (kort → lång)",
+      "searchKey": "length0"
+    },
+    {
+      "label": "Längd (lång → kort)",
+      "searchKey": "length1"
+    },
+    {
+      "label": "Highest amount of reviews",
+      "searchKey": "reviewcount0"
+    },
+    {
+      "label": "Highest relevance",
+      "searchKey": "score1"
+    },
+    {
+      "label": "Sortera efter betyg",
+      "searchKey": "reviewscore1"
+    }
+  ],
+  "filterSearchUrlMap": {
+    "education": {
+      "search": "/search/educations",
+      "start-search": "/kurs/",
+      "search-count": "/search/count?type=Education"
+    },
+    "institute": {
+      "view-institute": "/institute/viewinstitute",
+      "search": "/search/institutes",
+      "start-search": "/kurs/startInstitute/",
+      "search-count": "/search/count?type=Institute"
+    }
+  },
+  "searchDestination": null
+}

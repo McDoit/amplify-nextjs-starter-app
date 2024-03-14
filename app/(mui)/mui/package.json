@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "@devjaewoo/react-svg-connector": "1.1.4",
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "latest",
+    "@mui/material": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "typescript": "latest",
+    "jotai": "2.6.3",
+    "@mui/x-date-pickers": "6.19.4",
+    "dayjs": "1.11.10",
+    "@mui/x-date-pickers-pro": "6.19.4",
+    "date-fns": "3.3.1",
+    "react-helmet": "6.1.0"
+  },
+  "description": "https://github.com/mui/material-ui/blob/v5.14.2/docs/data/material/customization/theme-components/GlobalThemeOverride.tsx",
+  "devDependencies": {
+    "react-scripts": "latest"
+  },
+  "main": "index.tsx",
+  "scripts": {
+    "start": "react-scripts start"
+  }
+}
