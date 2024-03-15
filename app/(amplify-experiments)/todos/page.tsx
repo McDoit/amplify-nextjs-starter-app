@@ -183,6 +183,4 @@ export default function Page() {
       </Stack>
     </Container>
   );
-
-  return <div>About</div>;
 }

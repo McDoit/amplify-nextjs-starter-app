@@ -1,3 +1,4 @@
+import React from 'react';
 import type { Metadata } from "next";
 import NextLink from "next/link";
 import { Inter } from "next/font/google";

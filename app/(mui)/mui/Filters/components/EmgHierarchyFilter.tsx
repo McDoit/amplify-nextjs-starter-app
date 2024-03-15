@@ -176,7 +176,7 @@ export default function EmgHierarchyFilter(props: EmgHierarchyFilterProps) {
               return 0;
             })
             .map((node) => (
-              <Grid item xs={12} md={3}>
+              <Grid item xs={12} md={3} key={node.value}>
                 <HierarchyChip
                   item={node}
                   onClick={() => {

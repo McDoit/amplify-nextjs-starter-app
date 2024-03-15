@@ -1,15 +1,5 @@
 import {
-  AppBar,
-  Toolbar,
-  Container,
-  Stack,
-  Box,
-  Badge,
   SvgIcon,
-  Button,
-  FormControl,
-  Select,
-  MenuItem,
 } from "@mui/material";
 
 export default function CompareIcon() {
@@ -24,8 +14,8 @@ export default function CompareIcon() {
       >
         <mask id="path-1-inside-1_6039_4427" fill="white">
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M23.745 3.125C23.745 4.85089 22.3462 6.25 20.6207 6.25C18.8952 6.25 17.4963 4.85089 17.4963 3.125C17.4963 1.39911 18.8952 0 20.6207 0C22.3462 0 23.745 1.39911 23.745 3.125ZM24.1434 7.50174L0 13.9709L0.647038 16.3857L12.5003 13.2097L4.99895 25H22.4953L14.6307 12.6388L24.7905 9.91652L24.1434 7.50174ZM4.99895 11.2497C7.7598 11.2497 9.9979 9.01112 9.9979 6.24969C9.9979 3.48827 7.7598 1.24969 4.99895 1.24969C2.23811 1.24969 0 3.48827 0 6.24969C0 9.01112 2.23811 11.2497 4.99895 11.2497Z"
           ></path>
         </mask>

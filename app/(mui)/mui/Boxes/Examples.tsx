@@ -433,7 +433,7 @@ const examples = (theme: Theme) => {
       content: (
         <Box sx={{ "& button": { m: 1, my: 2 } }}>
           {buttonColorsInPalette.slice(2).map((color) => (
-            <Box sx={{ paddingY: 1 }}>
+            <Box sx={{ paddingY: 1 }} key={color}>
               <Typography sx={{ padding: 1 }} variant="h6">
                 {color}
               </Typography>
@@ -857,7 +857,7 @@ export default function Examples() {
   //console.log(theme["palette"]);
   var generatedExamples = useMemo(() => examples(theme), [theme]);
   const stateArray = generatedExamples.map((m) => false);
-  var [collapsedStates, setCollapsedStates] = React.useState({});
+  var [collapsedStates, setCollapsedStates] = React.useState<any>();
 
   console.log(collapsedStates);
 
@@ -875,7 +875,7 @@ export default function Examples() {
 
             <Button
               onClick={() =>
-                setCollapsedStates((prev) => {
+                setCollapsedStates((prev: any) => {
                   prev[i] = !prev[i];
                   return { ...prev };
                 })
