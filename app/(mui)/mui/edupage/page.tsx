@@ -44,7 +44,7 @@ import AccessTimeOutlinedIcon from "@mui/icons-material/AccessTimeOutlined";
 import { atom, useAtom, PrimitiveAtom } from "jotai";
 import { splitAtom } from "jotai/utils";
 
-import { useStore, Context } from "../layout"
+import { useStore, Context, savedEducationsAtom, comparedEducationsAtom } from "../layout"
 
 var infos = [
   {
@@ -90,11 +90,11 @@ export default function EduPage() {
 
   const [navigation, setNavigation] = useAtom(navigationAtom);
 
-  const contextValue: Context = useStore();
+  //const contextValue: Context = useStore();
 
-  const [savedEducations, setSavedEducations] = useAtom(contextValue.savedEducationsAtom);
+  const [savedEducations, setSavedEducations] = useAtom(savedEducationsAtom);
   const [comparedEducationsValue, setComparedEducations] =
-    useAtom(contextValue.comparedEducationsAtom);
+    useAtom(comparedEducationsAtom);
 
   var eduSaved = savedEducations.some((m) => m === eduName);
   var eduCompared = comparedEducationsValue.some((m) => m === eduName);

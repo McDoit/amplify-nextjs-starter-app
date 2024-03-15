@@ -37,7 +37,9 @@ import {
 
 import CloseIcon from "@mui/icons-material/Close";
 
-import { PrimitiveAtom, atom, useAtom } from "jotai";
+import { PrimitiveAtom, atom, useAtom, Provider } from "jotai";
+
+import { atomWithStorage } from 'jotai/utils'
 
 //import Site from "./Site";
 import { atomWithLocalStorage } from "./atomWithLocalStorage";
@@ -596,12 +598,12 @@ const eduThemeOptions = studentumThemeOptions; ///TODO
 const savedEducations: string[] = [];
 const comparedEducations: string[] = [];
 
-const savedEducationsAtom = atomWithLocalStorage(
+export const savedEducationsAtom = atomWithStorage(
   "SavedEducations",
   savedEducations
 );
 
-const comparedEducationsAtom = atomWithLocalStorage(
+export const comparedEducationsAtom = atomWithStorage(
   "CompareEducations",
   comparedEducations
 );
@@ -636,7 +638,7 @@ export default function MuiLayout({
 
   const themeCustomizationAtom = useMemo(
     () =>
-      atomWithLocalStorage(
+    atomWithStorage(
         "themeCustomizationAtom",
         //initializeThemeCustomization(prefersDarkMode)
         //initialThemeCustomization
@@ -926,8 +928,9 @@ export default function MuiLayout({
   };
 
   return (
-    <ThemeProvider theme={theme}>
-      <SelectedContext.Provider value={typedContext}>
+    <Provider>
+    <ThemeProvider theme={theme}>      
+      {/* <SelectedContext.Provider value={typedContext}> */}
       <Paper square elevation={0}>
       <Header
         savedEducations={savedEducationsAtom}
@@ -1076,8 +1079,9 @@ export default function MuiLayout({
           </Paper>
         </DialogContent>
       </Dialog>
-        </SelectedContext.Provider>
+        {/* </SelectedContext.Provider> */}
     </ThemeProvider>
+    </Provider>
   );
 }
 
