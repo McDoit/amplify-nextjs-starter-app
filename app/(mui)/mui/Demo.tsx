@@ -8,6 +8,8 @@ import {
   lighten,
 } from "@mui/material/styles";
 
+import { ChipPropsVariantOverrides } from "@mui/material/Chip";
+
 import {
   PaletteMode,
   Dialog,
@@ -24,6 +26,11 @@ import {
   Button,
   useMediaQuery,
 } from "@mui/material";
+
+
+//const colorObjects = colors;
+//const colorObjects = Object.keys(colors).map((k) => colors[k as any]);
+
 
 import CloseIcon from "@mui/icons-material/Close";
 
@@ -202,7 +209,7 @@ const useThemeOptionsAtom = atomWithLocalStorage("useThemeOptionsAtom", "kas");
 // );
 
 interface ThemeCustomizationInterface {
-  colorMode: string;
+  colorMode: PaletteMode;
   primaryColors: string;
   secondaryColors: string;
   primaryMain: string;
@@ -346,7 +353,7 @@ const baseThemeOptions: ThemeOptions = {
       },
       variants: [
         {
-          props: { variant: "chosen" },
+          props: { variant: "chosen" as ChipPropsVariantOverrides },
           style: {
             outline: `2px solid black`,
             backgroundColor: "white",
@@ -565,15 +572,20 @@ export default function GlobalThemeOverride() {
 
   const theme = React.useMemo(() => {
     console.log("Creating theme in memo");
+    // @ts-expect-error
     var primaryColor = colors[themeCustomization.primaryColors];
+    // @ts-expect-error
     var secondaryColor = colors[themeCustomization.secondaryColors];
 
     var chosenThemeOption =
       chosenTheme === "kas" ? kasThemeOptions : eduThemeOptions;
 
-    chosenThemeOption.palette.primary.main = themeCustomization.primaryMain;
-    chosenThemeOption.palette.secondary.main = themeCustomization.secondaryMain;
-
+      if(chosenThemeOption?.palette?.primary) {
+        chosenThemeOption.palette.primary.main = themeCustomization.primaryMain;
+      }
+      if(chosenThemeOption?.palette?.secondary) {
+        chosenThemeOption.palette.secondary.main = themeCustomization.secondaryMain;
+      }
     // chosenThemeOption.palette.emphasis.main =
     //   colors[themeCustomization.primaryColors][200];
 
@@ -601,6 +613,7 @@ export default function GlobalThemeOverride() {
           contrastText: "#999",
         },
         emphasis: theme.palette.augmentColor({
+          // @ts-expect-error
           color: { main: colors[themeCustomization.primaryColors][800] },
           name: "emphasis",
         }),
@@ -749,6 +762,7 @@ export default function GlobalThemeOverride() {
 
     if (themeCustomization.primaryShade) {
       themeCustomization.primaryMain =
+      // @ts-expect-error
         colors[themeCustomization.primaryColors][
           themeCustomization.primaryShade
         ];
@@ -765,8 +779,9 @@ export default function GlobalThemeOverride() {
     themeCustomization.secondaryColors = event.target.value as string;
 
     if (themeCustomization.secondaryShade) {
+      // @ts-expect-error
       themeCustomization.secondaryMain =
-        colors[themeCustomization.secondaryColors][
+      colors[themeCustomization.secondaryColors][
           themeCustomization.secondaryShade
         ];
     }
@@ -782,7 +797,7 @@ export default function GlobalThemeOverride() {
 
     if (themeCustomization.primaryShade) {
       themeCustomization.primaryMain =
-        colors[themeCustomization.primaryColors][
+        colors[themeCustomization.primaryColors as any][
           themeCustomization.primaryShade
         ];
     }
@@ -798,8 +813,9 @@ export default function GlobalThemeOverride() {
     themeCustomization.secondaryShade = event.target.value;
 
     if (themeCustomization.secondaryShade) {
+      // @ts-expect-error
       themeCustomization.secondaryMain =
-        colors[themeCustomization.secondaryColors][
+        colors[themeCustomization.secondaryColors as any][
           themeCustomization.secondaryShade
         ];
     }
@@ -885,7 +901,9 @@ export default function GlobalThemeOverride() {
                   <MenuItem value="">
                     <em>Shade</em>
                   </MenuItem>
-                  {Object.keys(colors[themeCustomization.primaryColors]).map(
+                  
+                  {// @ts-expect-error
+                  Object.keys(colors[themeCustomization.primaryColors]).map(
                     (color) => (
                       <MenuItem key={color} value={color}>
                         {color}
@@ -918,7 +936,8 @@ export default function GlobalThemeOverride() {
                   <MenuItem value="">
                     <em>Shade</em>
                   </MenuItem>
-                  {Object.keys(colors[themeCustomization.secondaryColors]).map(
+                  {// @ts-expect-error
+                  Object.keys(colors[themeCustomization.secondaryColors]).map(
                     (color) => (
                       <MenuItem key={color} value={color}>
                         {color}

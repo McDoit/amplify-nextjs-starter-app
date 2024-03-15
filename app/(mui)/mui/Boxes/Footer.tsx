@@ -12,7 +12,7 @@ const footerLinks = [
   "Privacy Policy",
 ];
 
-export default function Footer({ openThemeDialog }) {
+export default function Footer({ openThemeDialog } : { openThemeDialog: any}) {
   return (
     <Box sx={{ paddingY: 2, backgroundColor: "#434f66" }}>
       <Container>

@@ -35,6 +35,7 @@ import { DatePicker } from "@mui/x-date-pickers/DatePicker";
 import { styled, Theme, useTheme } from "@mui/material/styles";
 
 import { ChipPropsColorOverrides } from "@mui/material/Chip";
+import { ButtonPropsColorOverrides } from "@mui/material/Button";
 
 import { Helmet } from "react-helmet";
 
@@ -79,7 +80,7 @@ const Color = styled(Grid)(({ theme }) => ({
 const colorItem = (
   theme: Theme,
   color: (x: Theme) => string,
-  name,
+  name: string,
   expanded = false,
   border = false
 ) => (
@@ -282,6 +283,20 @@ const chipsColorsInPalette = colorsInPalette.map(
       ChipPropsColorOverrides
 );
 
+const buttonColorsInPalette = colorsInPalette.map(
+  (color) =>
+    color as (
+      | "inherit"
+      | "primary"
+      | "secondary"
+      | "success"
+      | "error"
+      | "info"
+      | "warning"
+    ) &
+      ButtonPropsColorOverrides
+);
+
 const examples = (theme: Theme) => {
   console.log("creating examples");
   return [
@@ -417,7 +432,7 @@ const examples = (theme: Theme) => {
       description: "Other Buttons",
       content: (
         <Box sx={{ "& button": { m: 1, my: 2 } }}>
-          {colorsInPalette.slice(2).map((color) => (
+          {buttonColorsInPalette.slice(2).map((color) => (
             <Box sx={{ paddingY: 1 }}>
               <Typography sx={{ padding: 1 }} variant="h6">
                 {color}

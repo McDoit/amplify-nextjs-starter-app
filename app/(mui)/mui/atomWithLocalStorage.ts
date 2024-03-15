@@ -1,6 +1,6 @@
-import { atom, Atom } from "jotai";
+import { atom, Atom, PrimitiveAtom} from "jotai";
 
-export function atomWithLocalStorage<T>(key: string, initialValue: T): Atom<T> {
+export function atomWithLocalStorage<T>(key: string, initialValue: T): PrimitiveAtom<T> {
   function getInitialValue() {
     if (typeof window !== 'undefined') {
     const item = localStorage?.getItem(key);
