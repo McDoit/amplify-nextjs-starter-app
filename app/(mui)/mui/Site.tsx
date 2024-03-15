@@ -52,7 +52,7 @@ const comparedEducationsAtom = atomWithLocalStorage(
   comparedEducations
 );
 
-export default function Site({ openThemeDialog }) {
+export default function Site({ openThemeDialog } : { openThemeDialog: any; }) {
   var eduPage: boolean = window.location.pathname === "/edupage";
   var examples: boolean = window.location.pathname === "/examples";
   var fnSearchPage: boolean = window.location.pathname === "/fn/search";

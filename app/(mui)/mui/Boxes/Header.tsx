@@ -67,6 +67,7 @@ export default function Header({
 }: {
   savedEducations: Atom<string[]>;
   comparedEducations: Atom<string[]>;
+  openThemeDialog: any;
 }) {
   const [savedEducationsCount] = useAtom(savedEducations);
   const [comparedEducationsCount] = useAtom(comparedEducations);
