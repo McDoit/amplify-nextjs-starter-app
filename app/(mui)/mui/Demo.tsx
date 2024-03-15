@@ -26,7 +26,8 @@ import {
   colors,
   Button,
   useMediaQuery,
-  SelectChangeEvent
+  SelectChangeEvent,
+  SimplePaletteColorOptions
 } from "@mui/material";
 
 
@@ -619,10 +620,11 @@ export default function GlobalThemeOverride() {
       chosenTheme === "kas" ? kasThemeOptions : eduThemeOptions;
 
       if(chosenThemeOption.palette?.primary) {
-        chosenThemeOption.palette.primary = { main = themeCustomization.primaryMain } as SimplePaletteColorOptions;
+        chosenThemeOption.palette.primary = { main: themeCustomization.primaryMain } as SimplePaletteColorOptions;
       }
       if(chosenThemeOption?.palette?.secondary) {
-        chosenThemeOption.palette.secondary = { main = themeCustomization.secondaryMain } as SimplePaletteColorOptions;
+        var sm: SimplePaletteColorOptions = { main: themeCustomization.secondaryMain };
+        chosenThemeOption.palette.secondary = { main: themeCustomization.secondaryMain } as SimplePaletteColorOptions;
       }
     // chosenThemeOption.palette.emphasis.main =
     //   colors[themeCustomization.primaryColors][200];
