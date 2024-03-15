@@ -40,7 +40,7 @@ import SellOutlinedIcon from "@mui/icons-material/SellOutlined";
 import AlarmOutlinedIcon from "@mui/icons-material/AlarmOutlined";
 import AccessTimeOutlinedIcon from "@mui/icons-material/AccessTimeOutlined";
 
-import { atom, useAtom, Atom } from "jotai";
+import { atom, useAtom, PrimitiveAtom } from "jotai";
 import { splitAtom } from "jotai/utils";
 
 var infos = [
@@ -86,8 +86,8 @@ export default function EduPage({
   savedEducationsAtom,
   comparedEducations,
 }: {
-  savedEducationsAtom: Atom<string[]>; //Primitive & WithInitialValue<string[]>
-  comparedEducations: Atom<string[]>;
+  savedEducationsAtom: PrimitiveAtom<string[]>; //Primitive & WithInitialValue<string[]>
+  comparedEducations: PrimitiveAtom<string[]>;
 }) {
   const eduName = "IU";
 
@@ -204,8 +204,8 @@ export default function EduPage({
                     //sx={{ bordercolor: "#f00" }}
                     onClick={(event) => {
                       event.stopPropagation();
-                      setSavedEducations(
-                        savedEducations.filter((m) => m !== "IU")
+                      setSavedEducations((se) =>
+                        se.filter((m) => m !== "IU")
                       );
                     }}
                   >
