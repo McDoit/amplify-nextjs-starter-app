@@ -32,7 +32,10 @@ export default function ProgramsByDiscipline() {
         borderTopColor: (theme) => theme.palette.background.default,
         background: (theme) =>
           `linear-gradient(to bottom, ${theme.palette.background.paper} 0%, ${theme.palette.background.paper} 50%, ${theme.palette.background.default} 50%, ${theme.palette.background.default} 100% )`,
-      }}
+        '& img.invertable': {
+          filter: (theme) => theme.palette.mode == 'dark' ? 'invert(100%) sepia(100%) saturate(2%) hue-rotate(193deg) brightness(109%) contrast(101%);' : undefined
+        }
+        }}
     >
       <Container>
         <Stack direction="row">
@@ -91,6 +94,7 @@ export default function ProgramsByDiscipline() {
                       alt=""
                       style={{ height: "38px" }}
                       loading="lazy"
+                      class="invertable"
                     />
                   </Stack>
                   <Typography

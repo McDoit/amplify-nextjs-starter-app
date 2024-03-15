@@ -1,4 +1,4 @@
-import { Chip, Divider } from "@mui/material";
+import { Chip, Divider, Stack } from "@mui/material";
 import * as React from "react";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 
@@ -30,7 +30,7 @@ export function ChipList(props: ChipListProps) {
   }, [jsonItems]);
 
   return (
-    <React.Fragment>
+    <Stack direction="row" spacing={1} useFlexGap flexWrap="wrap">
       {labels.map((s, i) => (
         <Chip
           variant={activeChip === s ? "chosen" : "outlined"}
@@ -53,7 +53,7 @@ export function ChipList(props: ChipListProps) {
           key={i}
         />
       ))}
-    </React.Fragment>
+    </Stack>
   );
 }
 
@@ -69,7 +69,7 @@ export function GenericChipList<T>(props: GenericChipListProps<T>) {
   }, [JSON.stringify(props.items)]);
 
   return (
-    <React.Fragment>
+    <Stack direction="row" spacing={1} useFlexGap flexWrap="wrap">
       {items.map((s, i) => (
         <Chip
           variant={activeChip === s ? "chosen" : "outlined"}
@@ -95,6 +95,6 @@ export function GenericChipList<T>(props: GenericChipListProps<T>) {
           key={i}
         />
       ))}
-    </React.Fragment>
+    </Stack>
   );
 }
