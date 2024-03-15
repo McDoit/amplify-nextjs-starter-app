@@ -12,7 +12,7 @@ import {
   MenuItem,
 } from "@mui/material";
 
-export default function CompareIcon(): SvgIcon {
+export default function CompareIcon() {
   return (
     <SvgIcon color="info">
       <svg
