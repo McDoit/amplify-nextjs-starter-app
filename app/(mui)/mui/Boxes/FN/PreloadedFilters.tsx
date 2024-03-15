@@ -1,4 +1,4 @@
-import { IFilterInfo } from "../utils/FilterStructure";
+import { IFilterInfo } from "../../Filters/utils/FilterStructure";
 import UnifiedFilters from "./UnifiedFilters";
 
 const data: IFilterInfo = require("../utils/filterData.json");
