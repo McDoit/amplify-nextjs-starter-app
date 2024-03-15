@@ -1,9 +1,10 @@
+"use client";
 import { Container, Typography, Stack, Box } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 import MenuIcon from "@mui/icons-material/Menu";
 import ApprovalIcon from "@mui/icons-material/Approval";
 import React, { useEffect, useRef, useState } from "react";
-import Connector from "@devjaewoo/react-svg-connector";
+//import Connector from "@devjaewoo/react-svg-connector";
 
 export default function EducationJourney() {
   var ref1 = useRef<any>();
