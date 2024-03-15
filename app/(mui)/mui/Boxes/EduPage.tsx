@@ -164,7 +164,7 @@ export default function EduPage({
                 </Grid>
               </CardContent>
             </Card>
-            <Paper p={2}>
+            <Paper>
               {links.map((m, i) => (
                 <Accordion disableGutters key={i} expanded={navigation === m}>
                   <AccordionSummary
