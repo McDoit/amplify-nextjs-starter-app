@@ -618,11 +618,11 @@ export default function GlobalThemeOverride() {
     var chosenThemeOption =
       chosenTheme === "kas" ? kasThemeOptions : eduThemeOptions;
 
-      if(chosenThemeOption?.palette?.primary) {
-        chosenThemeOption.palette.primary.main = themeCustomization.primaryMain;
+      if(chosenThemeOption.palette?.primary) {
+        chosenThemeOption.palette.primary = { main = themeCustomization.primaryMain } as SimplePaletteColorOptions;
       }
       if(chosenThemeOption?.palette?.secondary) {
-        chosenThemeOption.palette.secondary.main = themeCustomization.secondaryMain;
+        chosenThemeOption.palette.secondary = { main = themeCustomization.secondaryMain } as SimplePaletteColorOptions;
       }
     // chosenThemeOption.palette.emphasis.main =
     //   colors[themeCustomization.primaryColors][200];
