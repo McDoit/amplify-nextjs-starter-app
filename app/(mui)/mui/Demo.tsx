@@ -391,7 +391,7 @@ const baseThemeOptions: ThemeOptions = {
       },
       variants: [
         {
-          props: { variant: "chosen" as ChipPropsVariantOverrides },
+          props: { variant: "chosen" },
           style: {
             outline: `2px solid black`,
             backgroundColor: "white",
