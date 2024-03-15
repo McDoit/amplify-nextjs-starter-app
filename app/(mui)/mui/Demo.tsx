@@ -121,6 +121,17 @@ declare module "@mui/material/Button" {
   }
 }
 
+
+declare module "@mui/material/ButtonGroup" {
+  interface ButtonGroupPropsVariantOverrides {
+    contrast: true;
+    chosen: true;
+    "emg-outlined": true;
+  }
+}
+
+
+
 declare module "@mui/material/Badge" {
   interface BadgePropsColorOverrides {
     contrast: true;
@@ -623,7 +634,7 @@ export default function GlobalThemeOverride() {
         chosenThemeOption.palette.primary = { main: themeCustomization.primaryMain } as SimplePaletteColorOptions;
       }
       if(chosenThemeOption?.palette?.secondary) {
-        var sm: SimplePaletteColorOptions = { main: themeCustomization.secondaryMain };
+        //var sm: SimplePaletteColorOptions = { main: themeCustomization.secondaryMain };
         chosenThemeOption.palette.secondary = { main: themeCustomization.secondaryMain } as SimplePaletteColorOptions;
       }
     // chosenThemeOption.palette.emphasis.main =
