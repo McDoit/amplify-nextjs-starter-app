@@ -389,15 +389,15 @@ const baseThemeOptions: ThemeOptions = {
         //   borderRadius: "0.25rem",
         // },
       },
-      // variants: [
-      //   {
-      //     props: { variant: "chosen" },
-      //     style: {
-      //       outline: `2px solid black`,
-      //       backgroundColor: "white",
-      //     },
-      //   },
-      // ],
+      variants: [
+        {
+          props: { variant: "chosen" },
+          style: {
+            outline: `2px solid black`,
+            backgroundColor: "white",
+          },
+        },
+      ],
     },
     MuiButton: {
       variants: [
