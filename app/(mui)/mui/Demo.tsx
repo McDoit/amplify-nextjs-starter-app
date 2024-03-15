@@ -9,6 +9,7 @@ import {
 } from "@mui/material/styles";
 
 import { ChipPropsVariantOverrides } from "@mui/material/Chip";
+import { BadgePropsColorOverrides } from "@mui/material/Badge";
 
 import {
   PaletteMode,
@@ -116,6 +117,42 @@ declare module "@mui/material/Button" {
     contrast: true;
     chosen: true;
     "emg-outlined": true;
+  }
+}
+
+declare module "@mui/material/Badge" {
+  interface BadgePropsColorOverrides {
+    contrast: true;
+    emphasis: true;
+    crazy: true;
+    primaryShade50: true;
+    primaryShade100: true;
+    primaryShade200: true;
+    primaryShade300: true;
+    primaryShade400: true;
+    primaryShade500: true;
+    primaryShade600: true;
+    primaryShade700: true;
+    primaryShade800: true;
+    primaryShade900: true;
+    primaryShadeA100: true;
+    primaryShadeA200: true;
+    primaryShadeA400: true;
+    primaryShadeA700: true;
+    secondaryShade50: true;
+    secondaryShade100: true;
+    secondaryShade200: true;
+    secondaryShade300: true;
+    secondaryShade400: true;
+    secondaryShade500: true;
+    secondaryShade600: true;
+    secondaryShade700: true;
+    secondaryShade800: true;
+    secondaryShade900: true;
+    secondaryShadeA100: true;
+    secondaryShadeA200: true;
+    secondaryShadeA400: true;
+    secondaryShadeA700: true;
   }
 }
 

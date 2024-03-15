@@ -131,7 +131,7 @@ export default function Header({
                 <IconButton color="inherit">
                   <Badge
                     badgeContent={comparedEducationsCount.length}
-                    color="emphasis"
+                    color={"emphasis"}
                     showZero
                   >
                     <SvgIcon color="info">
