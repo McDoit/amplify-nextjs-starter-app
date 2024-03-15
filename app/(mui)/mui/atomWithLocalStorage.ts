@@ -2,12 +2,12 @@ import { atom, Atom, PrimitiveAtom} from "jotai";
 
 export function atomWithLocalStorage<T>(key: string, initialValue: T): PrimitiveAtom<T> {
   function getInitialValue() {
-    if (typeof window !== 'undefined') {
+    // if (typeof window !== 'undefined') {
     const item = localStorage?.getItem(key);
     if (item !== null) {
       return JSON.parse(item) as T;
     }
-  }
+  //}
     return initialValue as T;
   }
   const baseAtom = atom(getInitialValue());
