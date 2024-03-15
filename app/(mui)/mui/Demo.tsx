@@ -25,6 +25,7 @@ import {
   colors,
   Button,
   useMediaQuery,
+  SelectChangeEvent
 } from "@mui/material";
 
 
@@ -779,8 +780,9 @@ export default function GlobalThemeOverride() {
     themeCustomization.secondaryColors = event.target.value as string;
 
     if (themeCustomization.secondaryShade) {
-      // @ts-expect-error
+      
       themeCustomization.secondaryMain =
+      // @ts-expect-error
       colors[themeCustomization.secondaryColors][
           themeCustomization.secondaryShade
         ];
@@ -797,7 +799,8 @@ export default function GlobalThemeOverride() {
 
     if (themeCustomization.primaryShade) {
       themeCustomization.primaryMain =
-        colors[themeCustomization.primaryColors as any][
+      // @ts-expect-error
+        colors[themeCustomization.primaryColors][
           themeCustomization.primaryShade
         ];
     }
@@ -813,9 +816,10 @@ export default function GlobalThemeOverride() {
     themeCustomization.secondaryShade = event.target.value;
 
     if (themeCustomization.secondaryShade) {
-      // @ts-expect-error
+      
       themeCustomization.secondaryMain =
-        colors[themeCustomization.secondaryColors as any][
+      // @ts-expect-error
+        colors[themeCustomization.secondaryColors][
           themeCustomization.secondaryShade
         ];
     }
