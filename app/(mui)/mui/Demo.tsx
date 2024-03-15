@@ -8,8 +8,8 @@ import {
   lighten,
 } from "@mui/material/styles";
 
-import { ChipPropsVariantOverrides } from "@mui/material/Chip";
-import { BadgePropsColorOverrides } from "@mui/material/Badge";
+//import { ChipPropsVariantOverrides } from "@mui/material/Chip";
+//import { BadgePropsColorOverrides } from "@mui/material/Badge";
 
 import {
   PaletteMode,
@@ -193,7 +193,7 @@ declare module "@mui/material/Button" {
 }
 
 declare module "@mui/material/Chip" {
-  interface ChipsPropsVariantOverrides {
+  interface ChipPropsVariantOverrides {
     chosen: true;
     "emg-outlined": true;
   }
@@ -389,15 +389,15 @@ const baseThemeOptions: ThemeOptions = {
         //   borderRadius: "0.25rem",
         // },
       },
-      variants: [
-        {
-          props: { variant: "chosen" },
-          style: {
-            outline: `2px solid black`,
-            backgroundColor: "white",
-          },
-        },
-      ],
+      // variants: [
+      //   {
+      //     props: { variant: "chosen" },
+      //     style: {
+      //       outline: `2px solid black`,
+      //       backgroundColor: "white",
+      //     },
+      //   },
+      // ],
     },
     MuiButton: {
       variants: [
