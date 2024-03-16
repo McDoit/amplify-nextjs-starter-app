@@ -94,7 +94,7 @@ export default function ProgramsByDiscipline() {
                       alt=""
                       style={{ height: "38px" }}
                       loading="lazy"
-                      class="invertable"
+                      className="invertable"
                     />
                   </Stack>
                   <Typography

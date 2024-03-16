@@ -8,6 +8,7 @@ import {
   lighten,
 } from "@mui/material/styles";
 
+import { AppRouterCacheProvider } from "@mui/material-nextjs/v13-appRouter";
 //import { ChipPropsVariantOverrides } from "@mui/material/Chip";
 //import { BadgePropsColorOverrides } from "@mui/material/Badge";
 
@@ -42,7 +43,7 @@ import { PrimitiveAtom, atom, useAtom, Provider } from "jotai";
 import { atomWithStorage } from 'jotai/utils'
 
 //import Site from "./Site";
-import { atomWithLocalStorage } from "./atomWithLocalStorage";
+//import { atomWithLocalStorage } from "./atomWithLocalStorage";
 
 import EducationJourney from "./Boxes/EducationJourney";
 import FnSearchPage from "./Boxes/FnSearchPage";
@@ -263,7 +264,7 @@ const initalColorMode: PaletteMode = "light";
 //   "useColorModeAtom",
 //   initalColorMode
 // );
-const useThemeOptionsAtom = atomWithLocalStorage("useThemeOptionsAtom", "kas");
+const useThemeOptionsAtom = atomWithStorage("useThemeOptionsAtom", "kas");
 
 // const primaryShadesAtom = atomWithLocalStorage("primaryShadesAtom", "red");
 // const secondaryShadesAtom = atomWithLocalStorage(
@@ -929,6 +930,7 @@ export default function MuiLayout({
 
   return (
     <Provider>
+      <AppRouterCacheProvider>
     <ThemeProvider theme={theme}>      
       {/* <SelectedContext.Provider value={typedContext}> */}
       <Paper square elevation={0}>
@@ -1081,6 +1083,7 @@ export default function MuiLayout({
       </Dialog>
         {/* </SelectedContext.Provider> */}
     </ThemeProvider>
+    </AppRouterCacheProvider>
     </Provider>
   );
 }
