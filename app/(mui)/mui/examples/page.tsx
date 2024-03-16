@@ -28,7 +28,6 @@ import {
   InputAdornment,
   Collapse,
 } from "@mui/material";
-import { DemoContainer } from "@mui/x-date-pickers/internals/demo";
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import { DatePicker } from "@mui/x-date-pickers/DatePicker";
@@ -566,6 +565,7 @@ const examples = (theme: Theme) => {
       description: "Accordion",
       content: (
         <Container>
+          <Box sx={{ ...theme.typography}}>
           <Accordion>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
@@ -612,6 +612,7 @@ const examples = (theme: Theme) => {
               <Button>Agree</Button>
             </AccordionActions>
           </Accordion>
+          </Box>
         </Container>
       ),
     },
