@@ -1,16 +1,82 @@
 "use client";
 import React, { useMemo, createContext, useState, useContext } from "react";
-import {
-  ThemeProvider,
-  createTheme,
-  ThemeOptions,
-  responsiveFontSizes,
-  lighten,
-} from "@mui/material/styles";
+import { ThemeProvider, createTheme, ThemeOptions, responsiveFontSizes, lighten } from "@mui/material/styles";
 
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v13-appRouter";
+import { PaletteColorOptions, PaletteColor, CssBaseline } from "@mui/material";
 //import { ChipPropsVariantOverrides } from "@mui/material/Chip";
 //import { BadgePropsColorOverrides } from "@mui/material/Badge";
+
+declare module "@mui/material/styles" {
+  //declare module "@mui/material" {
+  export interface Palette {
+    emphasis: Palette["primary"];
+    contrast: PaletteColor;
+    crazy: PaletteColor;
+    primaryShade50: PaletteColor;
+    primaryShade100: PaletteColor;
+    primaryShade200: PaletteColor;
+    primaryShade300: PaletteColor;
+    primaryShade400: PaletteColor;
+    primaryShade500: PaletteColor;
+    primaryShade600: PaletteColor;
+    primaryShade700: PaletteColor;
+    primaryShade800: PaletteColor;
+    primaryShade900: PaletteColor;
+    primaryShadeA100: PaletteColor;
+    primaryShadeA200: PaletteColor;
+    primaryShadeA400: PaletteColor;
+    primaryShadeA700: PaletteColor;
+    secondaryShade50: PaletteColor;
+    secondaryShade100: PaletteColor;
+    secondaryShade200: PaletteColor;
+    secondaryShade300: PaletteColor;
+    secondaryShade400: PaletteColor;
+    secondaryShade500: PaletteColor;
+    secondaryShade600: PaletteColor;
+    secondaryShade700: PaletteColor;
+    secondaryShade800: PaletteColor;
+    secondaryShade900: PaletteColor;
+    secondaryShadeA100: PaletteColor;
+    secondaryShadeA200: PaletteColor;
+    secondaryShadeA400: PaletteColor;
+    secondaryShadeA700: PaletteColor;
+  }
+
+  interface PaletteOptions {
+    emphasis?: PaletteColorOptions;
+    contrast?: PaletteColorOptions;
+    crazy?: PaletteColorOptions;
+    primaryShade50?: PaletteColorOptions;
+    primaryShade100?: PaletteColorOptions;
+    primaryShade200?: PaletteColorOptions;
+    primaryShade300?: PaletteColorOptions;
+    primaryShade400?: PaletteColorOptions;
+    primaryShade500?: PaletteColorOptions;
+    primaryShade600?: PaletteColorOptions;
+    primaryShade700?: PaletteColorOptions;
+    primaryShade800?: PaletteColorOptions;
+    primaryShade900?: PaletteColorOptions;
+    primaryShadeA100?: PaletteColorOptions;
+    primaryShadeA200?: PaletteColorOptions;
+    primaryShadeA400?: PaletteColorOptions;
+    primaryShadeA700?: PaletteColorOptions;
+    secondaryShade50?: PaletteColorOptions;
+    secondaryShade100?: PaletteColorOptions;
+    secondaryShade200?: PaletteColorOptions;
+    secondaryShade300?: PaletteColorOptions;
+    secondaryShade400?: PaletteColorOptions;
+    secondaryShade500?: PaletteColorOptions;
+    secondaryShade600?: PaletteColorOptions;
+    secondaryShade700?: PaletteColorOptions;
+    secondaryShade800?: PaletteColorOptions;
+    secondaryShade900?: PaletteColorOptions;
+    secondaryShadeA100?: PaletteColorOptions;
+    secondaryShadeA200?: PaletteColorOptions;
+    secondaryShadeA400?: PaletteColorOptions;
+    secondaryShadeA700?: PaletteColorOptions;
+  }
+}
 
 import {
   PaletteMode,
@@ -31,16 +97,14 @@ import {
   SimplePaletteColorOptions
 } from "@mui/material";
 
-
 //const colorObjects = colors;
 //const colorObjects = Object.keys(colors).map((k) => colors[k as any]);
-
 
 import CloseIcon from "@mui/icons-material/Close";
 
 import { PrimitiveAtom, atom, useAtom, Provider } from "jotai";
 
-import { atomWithStorage } from 'jotai/utils'
+import { atomWithStorage } from "jotai/utils";
 
 //import Site from "./Site";
 //import { atomWithLocalStorage } from "./atomWithLocalStorage";
@@ -56,10 +120,6 @@ import ProgramsByDiscipline from "./Boxes/ProgramsByDiscipline";
 import WhereToStudy from "./Boxes/WhereToStudy";
 import EduPage from "./edupage/page";
 import Examples from "./examples/page";
-
-
-
-
 
 const initalColorMode: PaletteMode = "light";
 
@@ -92,12 +152,10 @@ const initialThemeCustomization: ThemeCustomizationInterface = {
   primaryMain: "#F67C79",
   secondaryMain: "#434F66",
   primaryShade: "500",
-  secondaryShade: "500",
+  secondaryShade: "500"
 };
 
-const initializeThemeCustomization = (
-  prefersDarkMode: boolean
-): ThemeCustomizationInterface => {
+const initializeThemeCustomization = (prefersDarkMode: boolean): ThemeCustomizationInterface => {
   console.log("creating default theme");
   return {
     colorMode: prefersDarkMode ? "dark" : "light",
@@ -106,7 +164,7 @@ const initializeThemeCustomization = (
     primaryMain: "#F67C79",
     secondaryMain: "#434F66",
     primaryShade: "500",
-    secondaryShade: "500",
+    secondaryShade: "500"
   };
 };
 
@@ -116,16 +174,16 @@ const baseThemeOptions: ThemeOptions = {
       styleOverrides: {
         colorInherit: {
           backgroundColor: "#434F66",
-          color: "#fff",
-        },
+          color: "#fff"
+        }
       },
       defaultProps: {
-        color: "inherit",
-      },
+        color: "inherit"
+      }
     },
     MuiToolbar: {
       defaultProps: {
-        variant: "dense",
+        variant: "dense"
       },
       styleOverrides: {
         // colorInherit: {
@@ -138,23 +196,23 @@ const baseThemeOptions: ThemeOptions = {
         dense: {
           // height: 52,
           //backgroundColor: "#434F66",
-          minHeight: 52,
-        },
-      },
+          minHeight: 52
+        }
+      }
     },
     MuiChip: {
       styleOverrides: {
         deleteIconColorPrimary: {
-          color: "#ffffff",
+          color: "#ffffff"
         },
         deleteIconColorSecondary: {
-          color: "secondary",
+          color: "secondary"
         },
         deleteIcon: {
           "&&:hover": {
             //color: 'purple',
-          },
-        },
+          }
+        }
         // root: {
         //   margin: "4px 8px 4px 0px",
         //   borderRadius: "0.25rem",
@@ -165,10 +223,10 @@ const baseThemeOptions: ThemeOptions = {
           props: { variant: "chosen" },
           style: {
             outline: `2px solid black`,
-            backgroundColor: "white",
-          },
-        },
-      ],
+            backgroundColor: "white"
+          }
+        }
+      ]
     },
     MuiButton: {
       variants: [
@@ -189,8 +247,8 @@ const baseThemeOptions: ThemeOptions = {
             borderColor: "white",
             borderStyle: "solid",
             borderWidth: "1px",
-            color: "white",
-          },
+            color: "white"
+          }
         },
         {
           props: { variant: "outlined", color: "contrast" },
@@ -199,32 +257,32 @@ const baseThemeOptions: ThemeOptions = {
               borderColor: "contrast",
               borderStyle: "solid",
               borderWidth: "1px",
-              color: "contrast",
+              color: "contrast"
             },
             borderColor: "contrast",
             borderStyle: "solid",
             borderWidth: "1px",
-            color: "contrast",
-          },
+            color: "contrast"
+          }
         },
         {
           props: { variant: "chosen" },
           style: {
             color: "black",
             outline: `2px solid black`,
-            backgroundColor: "white",
-          },
+            backgroundColor: "white"
+          }
         },
         {
           props: { variant: "emg-outlined" },
           style: {
             color: "grey",
             outline: `1px solid grey`,
-            backgroundColor: "white",
-          },
-        },
-      ],
-    },
+            backgroundColor: "white"
+          }
+        }
+      ]
+    }
   },
   typography: {
     fontFamily: "Open Sans",
@@ -233,142 +291,130 @@ const baseThemeOptions: ThemeOptions = {
       fontWeight: 800,
       lineHeight: 1.2,
       letterSpacing: 0,
-      fontSize: "3rem",
+      fontSize: "3rem"
     },
     h2: {
       fontFamily: "Raleway",
       fontWeight: 800,
       lineHeight: 1.3,
       letterSpacing: 0,
-      fontSize: "2.5rem",
+      fontSize: "2.5rem"
     },
     h3: {
       fontFamily: "Raleway",
       fontWeight: 800,
       lineHeight: 1.3,
       letterSpacing: 0,
-      fontSize: "2rem",
+      fontSize: "2rem"
     },
     h4: {
       fontFamily: "Raleway",
       fontWeight: 800,
       lineHeight: 1.3,
       letterSpacing: 0.005,
-      fontSize: "1.5rem",
+      fontSize: "1.5rem"
     },
     h5: {
       fontFamily: "Raleway",
       fontWeight: 700,
       lineHeight: 1.3,
       letterSpacing: 0.005,
-      fontSize: "1.38rem",
+      fontSize: "1.38rem"
     },
     h6: {
       fontFamily: "Raleway",
       fontWeight: 700,
       lineHeight: 1.3,
       letterSpacing: 0.005,
-      fontSize: "1.125rem",
+      fontSize: "1.125rem"
     },
     subtitle1: {
       fontFamily: "Raleway",
       fontWeight: 700,
       lineHeight: 1.4,
       letterSpacing: 0.005,
-      fontSize: "1rem",
+      fontSize: "1rem"
     },
     button: {
-      textTransform: "none",
-    },
+      textTransform: "none"
+    }
   },
   shape: {
-    borderRadius: 12,
-  },
+    borderRadius: 12
+  }
 };
 
 const studentumThemeOptions: ThemeOptions = {
   palette: {
     primary: {
       main: "#00897B",
-      light: "#80cbc4",
+      light: "#80cbc4"
     },
     secondary: {
       main: "#d81b60",
-      light: "#f48fb1",
+      light: "#f48fb1"
     },
     emphasis: {
       main: "#00897B",
-      contrastText: "#ffffff",
+      contrastText: "#ffffff"
     },
     contrast: {
-      main: "#ffffff",
+      main: "#ffffff"
     },
     background: {
-      default: "#434f66",
-    },
-  },
+      default: "#434f66"
+    }
+  }
 };
 
 var kasThemeOptions: ThemeOptions = {
   palette: {
     primary: {
       main: "#F67C79",
-      // light: "#FFB5B5",
+      //light: "#f4c9c7",
       // dark: "#CA4341",
-      contrastText: "#ffffff",
+      contrastText: "#ffffff"
     },
     secondary: {
-      main: "#434F66",
+      main: "#434F66"
       // dark: "#717171",
       // light: "#E0E0E0",
     },
     emphasis: {
       main: "#ca4341",
-      contrastText: "#ffffff",
+      contrastText: "#ffffff"
     },
     contrast: {
       main: "#ffffff",
-      contrastText: "#ffffff",
+      contrastText: "#ffffff"
     },
     background: {
-      default: "#434f66",
-    },
-  },
+      default: "#434f66"
+    }
+  }
 };
 
 const eduThemeOptions = studentumThemeOptions; ///TODO
 
 //console.log(theme);
 
-
 const savedEducations: string[] = [];
 const comparedEducations: string[] = [];
 
-export const savedEducationsAtom = atomWithStorage(
-  "SavedEducations",
-  savedEducations
-);
+export const savedEducationsAtom = atomWithStorage("SavedEducations", savedEducations);
 
-export const comparedEducationsAtom = atomWithStorage(
-  "CompareEducations",
-  comparedEducations
-);
-
+export const comparedEducationsAtom = atomWithStorage("CompareEducations", comparedEducations);
 
 export const PageContext = React.createContext(null);
 
 export type Context = {
   savedEducationsAtom: PrimitiveAtom<string[]>;
   comparedEducationsAtom: PrimitiveAtom<string[]>;
-}
+};
 
 export const SelectedContext = createContext<Context>({} as Context);
 
-export default function MuiLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function MuiLayout({ children }: { children: React.ReactNode }) {
   //var [colorMode, setColorMode] = useAtom(useColorModeAtom);
   const [chosenTheme, setChosenTheme] = useAtom(useThemeOptionsAtom); ///React.useState("kas");
   // const [primaryColorName, setPrimaryColorName] = useAtom(primaryShadesAtom);
@@ -384,7 +430,7 @@ export default function MuiLayout({
 
   const themeCustomizationAtom = useMemo(
     () =>
-    atomWithStorage(
+      atomWithStorage(
         "themeCustomizationAtom",
         //initializeThemeCustomization(prefersDarkMode)
         //initialThemeCustomization
@@ -393,9 +439,7 @@ export default function MuiLayout({
     [itc]
   );
 
-  const [themeCustomization, setThemeCustomization] = useAtom(
-    themeCustomizationAtom
-  );
+  const [themeCustomization, setThemeCustomization] = useAtom(themeCustomizationAtom);
 
   // if (!themeCustomization) {
   //   var itc = initializeThemeCustomization(prefersDarkMode);
@@ -414,30 +458,29 @@ export default function MuiLayout({
     // @ts-expect-error
     var secondaryColor = colors[themeCustomization.secondaryColors];
 
-    var chosenThemeOption =
-      chosenTheme === "kas" ? kasThemeOptions : eduThemeOptions;
+    var chosenThemeOption = chosenTheme === "kas" ? kasThemeOptions : eduThemeOptions;
 
-      if(chosenThemeOption.palette?.primary) {
-        chosenThemeOption.palette.primary = { main: themeCustomization.primaryMain } as SimplePaletteColorOptions;
-      }
-      if(chosenThemeOption?.palette?.secondary) {
-        //var sm: SimplePaletteColorOptions = { main: themeCustomization.secondaryMain };
-        chosenThemeOption.palette.secondary = { main: themeCustomization.secondaryMain } as SimplePaletteColorOptions;
-      }
+    if (chosenThemeOption.palette?.primary) {
+      chosenThemeOption.palette.primary = { main: themeCustomization.primaryMain } as SimplePaletteColorOptions;
+    }
+    if (chosenThemeOption?.palette?.secondary) {
+      //var sm: SimplePaletteColorOptions = { main: themeCustomization.secondaryMain };
+      chosenThemeOption.palette.secondary = { main: themeCustomization.secondaryMain } as SimplePaletteColorOptions;
+    }
     // chosenThemeOption.palette.emphasis.main =
     //   colors[themeCustomization.primaryColors][200];
 
     const mergedThemeOptions: ThemeOptions = {
       ...baseThemeOptions,
-      ...chosenThemeOption,
+      ...chosenThemeOption
     };
 
     var mergedThemeOptionsColorMode: ThemeOptions = {
       ...mergedThemeOptions,
       palette: {
         ...mergedThemeOptions.palette,
-        mode: themeCustomization.colorMode,
-      },
+        mode: themeCustomization.colorMode
+      }
     };
 
     var theme = createTheme(mergedThemeOptionsColorMode);
@@ -448,126 +491,126 @@ export default function MuiLayout({
           main: "#0f0",
           dark: "#f00",
           light: "#00f",
-          contrastText: "#999",
+          contrastText: "#999"
         },
         emphasis: theme.palette.augmentColor({
           // @ts-expect-error
           color: { main: colors[themeCustomization.primaryColors][800] },
-          name: "emphasis",
+          name: "emphasis"
         }),
         primaryShade50: theme.palette.augmentColor({
           color: { main: primaryColor[50] },
-          name: "primaryShade50",
+          name: "primaryShade50"
         }),
         primaryShade100: theme.palette.augmentColor({
           color: { main: primaryColor[100] },
-          name: "primaryShade100",
+          name: "primaryShade100"
         }),
         primaryShade200: theme.palette.augmentColor({
           color: { main: primaryColor[200] },
-          name: "primaryShade200",
+          name: "primaryShade200"
         }),
         primaryShade300: theme.palette.augmentColor({
           color: { main: primaryColor[300] },
-          name: "primaryShade300",
+          name: "primaryShade300"
         }),
         primaryShade400: theme.palette.augmentColor({
           color: { main: primaryColor[400] },
-          name: "primaryShade400",
+          name: "primaryShade400"
         }),
         primaryShade500: theme.palette.augmentColor({
           color: { main: primaryColor[500] },
-          name: "primaryShade500",
+          name: "primaryShade500"
         }),
         primaryShade600: theme.palette.augmentColor({
           color: { main: primaryColor[600] },
-          name: "primaryShade600",
+          name: "primaryShade600"
         }),
         primaryShade700: theme.palette.augmentColor({
           color: { main: primaryColor[700] },
-          name: "primaryShade700",
+          name: "primaryShade700"
         }),
         primaryShade800: theme.palette.augmentColor({
           color: { main: primaryColor[800] },
-          name: "primaryShade800",
+          name: "primaryShade800"
         }),
         primaryShade900: theme.palette.augmentColor({
           color: { main: primaryColor[900] },
-          name: "primaryShade900",
+          name: "primaryShade900"
         }),
         primaryShadeA100: theme.palette.augmentColor({
           color: { main: primaryColor["A100"] },
-          name: "primaryShadeA100",
+          name: "primaryShadeA100"
         }),
         primaryShadeA200: theme.palette.augmentColor({
           color: { main: primaryColor["A200"] },
-          name: "primaryShadeA200",
+          name: "primaryShadeA200"
         }),
         primaryShadeA400: theme.palette.augmentColor({
           color: { main: primaryColor["A400"] },
-          name: "primaryShadeA400",
+          name: "primaryShadeA400"
         }),
         primaryShadeA700: theme.palette.augmentColor({
           color: { main: primaryColor["A700"] },
-          name: "primaryShadeA700",
+          name: "primaryShadeA700"
         }),
         secondaryShade50: theme.palette.augmentColor({
           color: { main: secondaryColor[50] },
-          name: "secondaryShade50",
+          name: "secondaryShade50"
         }),
         secondaryShade100: theme.palette.augmentColor({
           color: { main: secondaryColor[100] },
-          name: "secondaryShade100",
+          name: "secondaryShade100"
         }),
         secondaryShade200: theme.palette.augmentColor({
           color: { main: secondaryColor[200] },
-          name: "secondaryShade200",
+          name: "secondaryShade200"
         }),
         secondaryShade300: theme.palette.augmentColor({
           color: { main: secondaryColor[300] },
-          name: "secondaryShade300",
+          name: "secondaryShade300"
         }),
         secondaryShade400: theme.palette.augmentColor({
           color: { main: secondaryColor[400] },
-          name: "secondaryShade400",
+          name: "secondaryShade400"
         }),
         secondaryShade500: theme.palette.augmentColor({
           color: { main: secondaryColor[500] },
-          name: "secondaryShade500",
+          name: "secondaryShade500"
         }),
         secondaryShade600: theme.palette.augmentColor({
           color: { main: secondaryColor[600] },
-          name: "secondaryShade600",
+          name: "secondaryShade600"
         }),
         secondaryShade700: theme.palette.augmentColor({
           color: { main: secondaryColor[700] },
-          name: "secondaryShade700",
+          name: "secondaryShade700"
         }),
         secondaryShade800: theme.palette.augmentColor({
           color: { main: secondaryColor[800] },
-          name: "secondaryShade800",
+          name: "secondaryShade800"
         }),
         secondaryShade900: theme.palette.augmentColor({
           color: { main: secondaryColor[900] },
-          name: "secondaryShade900",
+          name: "secondaryShade900"
         }),
         secondaryShadeA100: theme.palette.augmentColor({
           color: { main: secondaryColor["A100"] },
-          name: "secondaryShadeA100",
+          name: "secondaryShadeA100"
         }),
         secondaryShadeA200: theme.palette.augmentColor({
           color: { main: secondaryColor["A200"] },
-          name: "secondaryShadeA200",
+          name: "secondaryShadeA200"
         }),
         secondaryShadeA400: theme.palette.augmentColor({
           color: { main: secondaryColor["A400"] },
-          name: "secondaryShadeA400",
+          name: "secondaryShadeA400"
         }),
         secondaryShadeA700: theme.palette.augmentColor({
           color: { main: secondaryColor["A700"] },
-          name: "secondaryShadeA700",
-        }),
-      },
+          name: "secondaryShadeA700"
+        })
+      }
     });
 
     return theme;
@@ -585,9 +628,9 @@ export default function MuiLayout({
   const handleModeChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     // setColorMode(event.target.checked ? "light" : "dark");
 
-    setThemeCustomization((prev) => ({
+    setThemeCustomization(prev => ({
       ...prev,
-      colorMode: event.target.checked ? "light" : "dark",
+      colorMode: event.target.checked ? "light" : "dark"
     }));
   };
 
@@ -600,16 +643,14 @@ export default function MuiLayout({
 
     if (themeCustomization.primaryShade) {
       themeCustomization.primaryMain =
-      // @ts-expect-error
-        colors[themeCustomization.primaryColors][
-          themeCustomization.primaryShade
-        ];
+        // @ts-expect-error
+        colors[themeCustomization.primaryColors][themeCustomization.primaryShade];
     }
 
-    setThemeCustomization((prev) => ({
+    setThemeCustomization(prev => ({
       ...prev,
       primaryColors: event.target.value as string,
-      primaryMain: themeCustomization.primaryMain,
+      primaryMain: themeCustomization.primaryMain
     }));
   };
 
@@ -617,18 +658,15 @@ export default function MuiLayout({
     themeCustomization.secondaryColors = event.target.value as string;
 
     if (themeCustomization.secondaryShade) {
-      
       themeCustomization.secondaryMain =
-      // @ts-expect-error
-      colors[themeCustomization.secondaryColors][
-          themeCustomization.secondaryShade
-        ];
+        // @ts-expect-error
+        colors[themeCustomization.secondaryColors][themeCustomization.secondaryShade];
     }
 
-    setThemeCustomization((prev) => ({
+    setThemeCustomization(prev => ({
       ...prev,
       secondaryColors: event.target.value as string,
-      secondaryMain: themeCustomization.secondaryMain,
+      secondaryMain: themeCustomization.secondaryMain
     }));
   };
   const handlePrimaryShadeChange = (event: SelectChangeEvent) => {
@@ -636,16 +674,14 @@ export default function MuiLayout({
 
     if (themeCustomization.primaryShade) {
       themeCustomization.primaryMain =
-      // @ts-expect-error
-        colors[themeCustomization.primaryColors][
-          themeCustomization.primaryShade
-        ];
+        // @ts-expect-error
+        colors[themeCustomization.primaryColors][themeCustomization.primaryShade];
     }
 
-    setThemeCustomization((prev) => ({
+    setThemeCustomization(prev => ({
       ...prev,
       primaryShade: themeCustomization.primaryShade,
-      primaryMain: themeCustomization.primaryMain,
+      primaryMain: themeCustomization.primaryMain
     }));
   };
 
@@ -653,182 +689,167 @@ export default function MuiLayout({
     themeCustomization.secondaryShade = event.target.value;
 
     if (themeCustomization.secondaryShade) {
-      
       themeCustomization.secondaryMain =
-      // @ts-expect-error
-        colors[themeCustomization.secondaryColors][
-          themeCustomization.secondaryShade
-        ];
+        // @ts-expect-error
+        colors[themeCustomization.secondaryColors][themeCustomization.secondaryShade];
     }
 
-    setThemeCustomization((prev) => ({
+    setThemeCustomization(prev => ({
       ...prev,
       secondaryShade: themeCustomization.secondaryShade,
-      secondaryMain: themeCustomization.secondaryMain,
+      secondaryMain: themeCustomization.secondaryMain
     }));
   };
 
   var typedContext: Context = {
     savedEducationsAtom: savedEducationsAtom,
-    comparedEducationsAtom: comparedEducationsAtom,
+    comparedEducationsAtom: comparedEducationsAtom
   };
 
   return (
     <Provider>
       <AppRouterCacheProvider>
-    <ThemeProvider theme={theme}>      
-      {/* <SelectedContext.Provider value={typedContext}> */}
-      <Paper square elevation={0}>
-      <Header
-        savedEducations={savedEducationsAtom}
-        comparedEducations={comparedEducationsAtom}
-        openThemeDialog={handleClickOpen}
-      />
-      {children}
-      <Footer openThemeDialog={handleClickOpen} />
-    </Paper>
-      <Dialog
-        onClose={handleClose}
-        aria-labelledby="customized-dialog-title"
-        open={open}
-      >
-        <DialogTitle sx={{ m: 0, p: 2 }} id="customized-dialog-title">
-          Theme Options
-        </DialogTitle>
-        <IconButton
-          aria-label="close"
-          onClick={handleClose}
-          sx={{
-            position: "absolute",
-            right: 8,
-            top: 8,
-            color: (theme) => theme.palette.grey[500],
-          }}
-        >
-          <CloseIcon />
-        </IconButton>
-        <DialogContent dividers>
-          <Paper sx={{ padding: 2, marginY: 1 }}>
-            <Typography gutterBottom component="div">
-              <Stack direction="row" alignContent="center" alignItems="center">
-                <>Dark</>
-                <Switch
-                  checked={themeCustomization.colorMode !== "dark"}
-                  onChange={handleModeChange}
-                />
-                <>Light</>
-              </Stack>
-            </Typography>
+        <ThemeProvider theme={theme}>
+          <CssBaseline />
+          {/* <SelectedContext.Provider value={typedContext}> */}
+          <Paper square elevation={0}>
+            <Header
+              savedEducations={savedEducationsAtom}
+              comparedEducations={comparedEducationsAtom}
+              openThemeDialog={handleClickOpen}
+            />
+            {children}
+            <Footer openThemeDialog={handleClickOpen} />
           </Paper>
-          <Paper sx={{ padding: 2, marginY: 1 }}>
-            {/* <Typography gutterBottom> */}
-            <Select
-              labelId="demo-simple-select-label"
-              id="demo-simple-select"
-              value={chosenTheme}
-              label="Theme"
-              onChange={handleThemeChange}
-            >
-              <MenuItem value="kas">KAS</MenuItem>
-              <MenuItem value="edu">EDU</MenuItem>
-            </Select>
-            {/* </Typography> */}
-          </Paper>
-          <Paper sx={{ padding: 2, marginY: 1 }}>
-            {/* <Typography gutterBottom> */}
-            <Stack spacing={2}>
-              <Stack spacing={2} direction="row">
+          <Dialog onClose={handleClose} aria-labelledby="customized-dialog-title" open={open}>
+            <DialogTitle sx={{ m: 0, p: 2 }} id="customized-dialog-title">
+              Theme Options
+            </DialogTitle>
+            <IconButton
+              aria-label="close"
+              onClick={handleClose}
+              sx={{
+                position: "absolute",
+                right: 8,
+                top: 8,
+                color: theme => theme.palette.grey[500]
+              }}>
+              <CloseIcon />
+            </IconButton>
+            <DialogContent dividers>
+              <Paper sx={{ padding: 2, marginY: 1 }}>
+                <Typography gutterBottom component="div">
+                  <Stack direction="row" alignContent="center" alignItems="center">
+                    <>Dark</>
+                    <Switch checked={themeCustomization.colorMode !== "dark"} onChange={handleModeChange} />
+                    <>Light</>
+                  </Stack>
+                </Typography>
+              </Paper>
+              <Paper sx={{ padding: 2, marginY: 1 }}>
+                {/* <Typography gutterBottom> */}
                 <Select
                   labelId="demo-simple-select-label"
                   id="demo-simple-select"
-                  value={themeCustomization.primaryColors}
-                  onChange={handlePrimaryColorsChange}
-                >
-                  {Object.keys(colors).map((color) => (
-                    <MenuItem key={color} value={color}>
-                      {color}
-                    </MenuItem>
-                  ))}
+                  value={chosenTheme}
+                  label="Theme"
+                  onChange={handleThemeChange}>
+                  <MenuItem value="kas">KAS</MenuItem>
+                  <MenuItem value="edu">EDU</MenuItem>
                 </Select>
-                <Select
-                  value={themeCustomization.primaryShade}
-                  onChange={handlePrimaryShadeChange}
-                  //color="secondary"
-                >
-                  <MenuItem value="">
-                    <em>Shade</em>
-                  </MenuItem>
-                  
-                  {// @ts-expect-error
-                  Object.keys(colors[themeCustomization.primaryColors]).map(
-                    (color) => (
-                      <MenuItem key={color} value={color}>
-                        {color}
+                {/* </Typography> */}
+              </Paper>
+              <Paper sx={{ padding: 2, marginY: 1 }}>
+                {/* <Typography gutterBottom> */}
+                <Stack spacing={2}>
+                  <Stack spacing={2} direction="row">
+                    <Select
+                      labelId="demo-simple-select-label"
+                      id="demo-simple-select"
+                      value={themeCustomization.primaryColors}
+                      onChange={handlePrimaryColorsChange}>
+                      {Object.keys(colors).map(color => (
+                        <MenuItem key={color} value={color}>
+                          {color}
+                        </MenuItem>
+                      ))}
+                    </Select>
+                    <Select
+                      value={themeCustomization.primaryShade}
+                      onChange={handlePrimaryShadeChange}
+                      //color="secondary"
+                    >
+                      <MenuItem value="">
+                        <em>Shade</em>
                       </MenuItem>
-                    )
-                  )}
-                </Select>
-              </Stack>
-              <Stack spacing={2} direction="row">
-                <Select
-                  labelId="demo-simple-select-label"
-                  id="demo-simple-select"
-                  value={themeCustomization.secondaryColors}
-                  onChange={handleSecondaryColorsChange}
-                  color="secondary"
-                >
-                  {Object.keys(colors).map((color) => (
-                    <MenuItem key={color} value={color}>
-                      {color}
-                    </MenuItem>
-                  ))}
-                </Select>
-                <Select
-                  labelId="demo-simple-select-label"
-                  id="demo-simple-select"
-                  value={themeCustomization.secondaryShade}
-                  onChange={handleSecondaryShadeChange}
-                  color="secondary"
-                >
-                  <MenuItem value="">
-                    <em>Shade</em>
-                  </MenuItem>
-                  {// @ts-expect-error
-                  Object.keys(colors[themeCustomization.secondaryColors]).map(
-                    (color) => (
-                      <MenuItem key={color} value={color}>
-                        {color}
+
+                      {
+                        // @ts-expect-error
+                        Object.keys(colors[themeCustomization.primaryColors]).map(color => (
+                          <MenuItem key={color} value={color}>
+                            {color}
+                          </MenuItem>
+                        ))
+                      }
+                    </Select>
+                  </Stack>
+                  <Stack spacing={2} direction="row">
+                    <Select
+                      labelId="demo-simple-select-label"
+                      id="demo-simple-select"
+                      value={themeCustomization.secondaryColors}
+                      onChange={handleSecondaryColorsChange}
+                      color="secondary">
+                      {Object.keys(colors).map(color => (
+                        <MenuItem key={color} value={color}>
+                          {color}
+                        </MenuItem>
+                      ))}
+                    </Select>
+                    <Select
+                      labelId="demo-simple-select-label"
+                      id="demo-simple-select"
+                      value={themeCustomization.secondaryShade}
+                      onChange={handleSecondaryShadeChange}
+                      color="secondary">
+                      <MenuItem value="">
+                        <em>Shade</em>
                       </MenuItem>
+                      {
+                        // @ts-expect-error
+                        Object.keys(colors[themeCustomization.secondaryColors]).map(color => (
+                          <MenuItem key={color} value={color}>
+                            {color}
+                          </MenuItem>
+                        ))
+                      }
+                    </Select>
+                  </Stack>
+                </Stack>
+                {/* </Typography> */}
+              </Paper>
+              <Paper sx={{ padding: 2, marginY: 1 }}>
+                <Typography gutterBottom variant="button">
+                  Visual represenation of current theme customization object
+                </Typography>
+                <Typography gutterBottom variant="caption">
+                  <pre>{JSON.stringify(themeCustomization, null, 2)}</pre>
+                </Typography>
+                <Button
+                  onClick={() =>
+                    setThemeCustomization(
+                      initializeThemeCustomization(prefersDarkMode)
+                      //undefined
                     )
-                  )}
-                </Select>
-              </Stack>
-            </Stack>
-            {/* </Typography> */}
-          </Paper>
-          <Paper sx={{ padding: 2, marginY: 1 }}>
-            <Typography gutterBottom variant="button">
-              Visual represenation of current theme customization object
-            </Typography>
-            <Typography gutterBottom variant="caption">
-              <pre>{JSON.stringify(themeCustomization, null, 2)}</pre>
-            </Typography>
-            <Button
-              onClick={() =>
-                setThemeCustomization(
-                  initializeThemeCustomization(prefersDarkMode)
-                  //undefined
-                )
-              }
-            >
-              Reset
-            </Button>
-          </Paper>
-        </DialogContent>
-      </Dialog>
-        {/* </SelectedContext.Provider> */}
-    </ThemeProvider>
-    </AppRouterCacheProvider>
+                  }>
+                  Reset
+                </Button>
+              </Paper>
+            </DialogContent>
+          </Dialog>
+          {/* </SelectedContext.Provider> */}
+        </ThemeProvider>
+      </AppRouterCacheProvider>
     </Provider>
   );
 }
