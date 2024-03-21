@@ -46,7 +46,7 @@ export default function ChatBot() {
                 <Avatar sx={{ bgcolor: "#fff", height: 56, width: 56 }}>
                   <ThreePOutlinedIcon fontSize="large" />
                 </Avatar>
-                <Typography variant="h3">Hi! I'm your assistant!</Typography>
+                <Typography variant="h3">Hi! I&apos;m your assistant!</Typography>
               </Stack>
               <Typography>Ask me anything</Typography>
             </Stack>
@@ -66,7 +66,7 @@ export default function ChatBot() {
               startIcon={<TelegramIcon />}
               endIcon={<RocketLaunchIcon />}
               fullWidth>
-              Let's get started!
+              Let&apos;s get started!
             </Button>
           </Box>
         </Stack>
